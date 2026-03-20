@@ -1,0 +1,5 @@
+C:/Users/pbent/Desktop/Autocliker/build/CMakeFiles/Autoclicker.dir
+C:/Users/pbent/Desktop/Autocliker/build/CMakeFiles/edit_cache.dir
+C:/Users/pbent/Desktop/Autocliker/build/CMakeFiles/rebuild_cache.dir
+C:/Users/pbent/Desktop/Autocliker/build/CMakeFiles/Autoclicker_autogen_timestamp_deps.dir
+C:/Users/pbent/Desktop/Autocliker/build/CMakeFiles/Autoclicker_autogen.dir

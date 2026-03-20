@@ -1,0 +1,7 @@
+{
+    "clickConfig": {
+        "clickType": 0,
+        "intervalMs": 10
+    },
+    "name": "capybara"
+}

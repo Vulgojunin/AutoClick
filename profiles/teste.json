@@ -1,0 +1,7 @@
+{
+    "clickConfig": {
+        "clickType": 1,
+        "intervalMs": 600
+    },
+    "name": "teste"
+}
