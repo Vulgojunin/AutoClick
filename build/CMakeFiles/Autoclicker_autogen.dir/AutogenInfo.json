@@ -286,6 +286,12 @@
 			null
 		],
 		[
+			"C:/Users/pbent/Desktop/Autocliker/src/core/Registry.h",
+			"MU",
+			"PRMOGMWJPH/moc_Registry.cpp",
+			null
+		],
+		[
 			"C:/Users/pbent/Desktop/Autocliker/src/input/InputManager.h",
 			"MU",
 			"NNGSYZYP4R/moc_InputManager.cpp",
@@ -399,6 +405,7 @@
 			null
 		],
 		[ "C:/Users/pbent/Desktop/Autocliker/src/core/Engine.cpp", "MU", null ],
+		[ "C:/Users/pbent/Desktop/Autocliker/src/core/Registry.cpp", "MU", null ],
 		[
 			"C:/Users/pbent/Desktop/Autocliker/src/input/InputManager.cpp",
 			"MU",

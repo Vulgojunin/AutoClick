@@ -605,6 +605,8 @@ Autoclicker_autogen/timestamp: C:/Program\ Files/CMake/bin/cmake.exe \
   C:/Users/pbent/Desktop/Autocliker/src/core/Controller.h \
   C:/Users/pbent/Desktop/Autocliker/src/core/Engine.cpp \
   C:/Users/pbent/Desktop/Autocliker/src/core/Engine.h \
+  C:/Users/pbent/Desktop/Autocliker/src/core/Registry.cpp \
+  C:/Users/pbent/Desktop/Autocliker/src/core/Registry.h \
   C:/Users/pbent/Desktop/Autocliker/src/core/interfaces/IControllerObserver.h \
   C:/Users/pbent/Desktop/Autocliker/src/input/InputManager.cpp \
   C:/Users/pbent/Desktop/Autocliker/src/input/InputManager.h \
@@ -3116,7 +3118,6 @@ CMakeFiles/Autoclicker.dir/src/services/ProfileManager.cpp.obj: C:/Users/pbent/D
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iomanip \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iosfwd \
-  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iterator \
   C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
@@ -5405,6 +5406,10 @@ C:/Users/pbent/Desktop/Autocliker/src/core/Controller.cpp:
 
 C:/Users/pbent/Desktop/Autocliker/src/core/Engine.h:
 
+C:/Users/pbent/Desktop/Autocliker/src/core/Registry.cpp:
+
+C:/Users/pbent/Desktop/Autocliker/src/core/Registry.h:
+
 C:/Users/pbent/Desktop/Autocliker/src/core/interfaces/IControllerObserver.h:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avx512fp16intrin.h:
@@ -5522,8 +5527,6 @@ C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/avxvnniintrin
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/this_thread_sleep.h:
-
-C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream:
 
 C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/clflushoptintrin.h:
 

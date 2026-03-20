@@ -605,6 +605,8 @@ Autoclicker_autogen/timestamp: C:/Program\ Files/CMake/bin/cmake.exe \
   C:/Users/pbent/Desktop/Autocliker/src/core/Controller.h \
   C:/Users/pbent/Desktop/Autocliker/src/core/Engine.cpp \
   C:/Users/pbent/Desktop/Autocliker/src/core/Engine.h \
+  C:/Users/pbent/Desktop/Autocliker/src/core/Registry.cpp \
+  C:/Users/pbent/Desktop/Autocliker/src/core/Registry.h \
   C:/Users/pbent/Desktop/Autocliker/src/core/interfaces/IControllerObserver.h \
   C:/Users/pbent/Desktop/Autocliker/src/input/InputManager.cpp \
   C:/Users/pbent/Desktop/Autocliker/src/input/InputManager.h \
@@ -1827,6 +1829,10 @@ C:/Users/pbent/Desktop/Autocliker/src/actions/ClickAction.cpp:
 C:/Users/pbent/Desktop/Autocliker/src/core/Controller.cpp:
 
 C:/Users/pbent/Desktop/Autocliker/src/core/Engine.h:
+
+C:/Users/pbent/Desktop/Autocliker/src/core/Registry.cpp:
+
+C:/Users/pbent/Desktop/Autocliker/src/core/Registry.h:
 
 C:/Users/pbent/Desktop/Autocliker/src/core/interfaces/IControllerObserver.h:
 

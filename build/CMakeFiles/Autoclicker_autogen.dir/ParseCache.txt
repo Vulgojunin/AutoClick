@@ -421,3 +421,5 @@ C:/Users/pbent/Desktop/Autocliker/ui/MainWindow.h
  mdp:C:/Users/pbent/Desktop/Autocliker/src/core/interfaces/IControllerObserver.h
  mdp:C:/Users/pbent/Desktop/Autocliker/ui/MainWindow.h
 C:/Users/pbent/Desktop/Autocliker/ui/MainWindow.cpp
+C:/Users/pbent/Desktop/Autocliker/src/core/Registry.h
+C:/Users/pbent/Desktop/Autocliker/src/core/Registry.cpp

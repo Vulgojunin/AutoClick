@@ -417,6 +417,9 @@ CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj: \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/qgroupbox.h \
  C:/Users/pbent/Desktop/Autocliker/src/core/interfaces/IControllerObserver.h \
  C:/Users/pbent/Desktop/Autocliker/src/core/Controller.h \
+ C:/Users/pbent/Desktop/Autocliker/src/core/Registry.h \
+ C:/Users/pbent/Desktop/Autocliker/src/core/interfaces/IAction.h \
+ C:/Users/pbent/Desktop/Autocliker/src/strategies/interfaces/IStrategy.h \
  C:/Users/pbent/Desktop/Autocliker/src/core/Engine.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/thread \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/std_thread.h \

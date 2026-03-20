@@ -153,11 +153,26 @@ CMakeFiles/Autoclicker.dir/src/core/Engine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Autoclicker.dir/src/core/Engine.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pbent\Desktop\Autocliker\src\core\Engine.cpp -o CMakeFiles\Autoclicker.dir\src\core\Engine.cpp.s
 
+CMakeFiles/Autoclicker.dir/src/core/Registry.cpp.obj: CMakeFiles/Autoclicker.dir/flags.make
+CMakeFiles/Autoclicker.dir/src/core/Registry.cpp.obj: CMakeFiles/Autoclicker.dir/includes_CXX.rsp
+CMakeFiles/Autoclicker.dir/src/core/Registry.cpp.obj: C:/Users/pbent/Desktop/Autocliker/src/core/Registry.cpp
+CMakeFiles/Autoclicker.dir/src/core/Registry.cpp.obj: CMakeFiles/Autoclicker.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\pbent\Desktop\Autocliker\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Autoclicker.dir/src/core/Registry.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/src/core/Registry.cpp.obj -MF CMakeFiles\Autoclicker.dir\src\core\Registry.cpp.obj.d -o CMakeFiles\Autoclicker.dir\src\core\Registry.cpp.obj -c C:\Users\pbent\Desktop\Autocliker\src\core\Registry.cpp
+
+CMakeFiles/Autoclicker.dir/src/core/Registry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Autoclicker.dir/src/core/Registry.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pbent\Desktop\Autocliker\src\core\Registry.cpp > CMakeFiles\Autoclicker.dir\src\core\Registry.cpp.i
+
+CMakeFiles/Autoclicker.dir/src/core/Registry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Autoclicker.dir/src/core/Registry.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pbent\Desktop\Autocliker\src\core\Registry.cpp -o CMakeFiles\Autoclicker.dir\src\core\Registry.cpp.s
+
 CMakeFiles/Autoclicker.dir/src/input/InputManager.cpp.obj: CMakeFiles/Autoclicker.dir/flags.make
 CMakeFiles/Autoclicker.dir/src/input/InputManager.cpp.obj: CMakeFiles/Autoclicker.dir/includes_CXX.rsp
 CMakeFiles/Autoclicker.dir/src/input/InputManager.cpp.obj: C:/Users/pbent/Desktop/Autocliker/src/input/InputManager.cpp
 CMakeFiles/Autoclicker.dir/src/input/InputManager.cpp.obj: CMakeFiles/Autoclicker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\pbent\Desktop\Autocliker\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Autoclicker.dir/src/input/InputManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\pbent\Desktop\Autocliker\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Autoclicker.dir/src/input/InputManager.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/src/input/InputManager.cpp.obj -MF CMakeFiles\Autoclicker.dir\src\input\InputManager.cpp.obj.d -o CMakeFiles\Autoclicker.dir\src\input\InputManager.cpp.obj -c C:\Users\pbent\Desktop\Autocliker\src\input\InputManager.cpp
 
 CMakeFiles/Autoclicker.dir/src/input/InputManager.cpp.i: cmake_force
@@ -172,7 +187,7 @@ CMakeFiles/Autoclicker.dir/src/services/ProfileManager.cpp.obj: CMakeFiles/Autoc
 CMakeFiles/Autoclicker.dir/src/services/ProfileManager.cpp.obj: CMakeFiles/Autoclicker.dir/includes_CXX.rsp
 CMakeFiles/Autoclicker.dir/src/services/ProfileManager.cpp.obj: C:/Users/pbent/Desktop/Autocliker/src/services/ProfileManager.cpp
 CMakeFiles/Autoclicker.dir/src/services/ProfileManager.cpp.obj: CMakeFiles/Autoclicker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\pbent\Desktop\Autocliker\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Autoclicker.dir/src/services/ProfileManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\pbent\Desktop\Autocliker\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Autoclicker.dir/src/services/ProfileManager.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/src/services/ProfileManager.cpp.obj -MF CMakeFiles\Autoclicker.dir\src\services\ProfileManager.cpp.obj.d -o CMakeFiles\Autoclicker.dir\src\services\ProfileManager.cpp.obj -c C:\Users\pbent\Desktop\Autocliker\src\services\ProfileManager.cpp
 
 CMakeFiles/Autoclicker.dir/src/services/ProfileManager.cpp.i: cmake_force
@@ -187,7 +202,7 @@ CMakeFiles/Autoclicker.dir/src/strategies/FixedStrategy.cpp.obj: CMakeFiles/Auto
 CMakeFiles/Autoclicker.dir/src/strategies/FixedStrategy.cpp.obj: CMakeFiles/Autoclicker.dir/includes_CXX.rsp
 CMakeFiles/Autoclicker.dir/src/strategies/FixedStrategy.cpp.obj: C:/Users/pbent/Desktop/Autocliker/src/strategies/FixedStrategy.cpp
 CMakeFiles/Autoclicker.dir/src/strategies/FixedStrategy.cpp.obj: CMakeFiles/Autoclicker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\pbent\Desktop\Autocliker\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Autoclicker.dir/src/strategies/FixedStrategy.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\pbent\Desktop\Autocliker\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Autoclicker.dir/src/strategies/FixedStrategy.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/src/strategies/FixedStrategy.cpp.obj -MF CMakeFiles\Autoclicker.dir\src\strategies\FixedStrategy.cpp.obj.d -o CMakeFiles\Autoclicker.dir\src\strategies\FixedStrategy.cpp.obj -c C:\Users\pbent\Desktop\Autocliker\src\strategies\FixedStrategy.cpp
 
 CMakeFiles/Autoclicker.dir/src/strategies/FixedStrategy.cpp.i: cmake_force
@@ -202,7 +217,7 @@ CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj: CMakeFiles/Autoclicker.dir/fla
 CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj: CMakeFiles/Autoclicker.dir/includes_CXX.rsp
 CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj: C:/Users/pbent/Desktop/Autocliker/ui/MainWindow.cpp
 CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj: CMakeFiles/Autoclicker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\pbent\Desktop\Autocliker\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\pbent\Desktop\Autocliker\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj -MF CMakeFiles\Autoclicker.dir\ui\MainWindow.cpp.obj.d -o CMakeFiles\Autoclicker.dir\ui\MainWindow.cpp.obj -c C:\Users\pbent\Desktop\Autocliker\ui\MainWindow.cpp
 
 CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.i: cmake_force
@@ -220,6 +235,7 @@ Autoclicker_OBJECTS = \
 "CMakeFiles/Autoclicker.dir/src/actions/ClickAction.cpp.obj" \
 "CMakeFiles/Autoclicker.dir/src/core/Controller.cpp.obj" \
 "CMakeFiles/Autoclicker.dir/src/core/Engine.cpp.obj" \
+"CMakeFiles/Autoclicker.dir/src/core/Registry.cpp.obj" \
 "CMakeFiles/Autoclicker.dir/src/input/InputManager.cpp.obj" \
 "CMakeFiles/Autoclicker.dir/src/services/ProfileManager.cpp.obj" \
 "CMakeFiles/Autoclicker.dir/src/strategies/FixedStrategy.cpp.obj" \
@@ -233,6 +249,7 @@ Autoclicker.exe: CMakeFiles/Autoclicker.dir/main.cpp.obj
 Autoclicker.exe: CMakeFiles/Autoclicker.dir/src/actions/ClickAction.cpp.obj
 Autoclicker.exe: CMakeFiles/Autoclicker.dir/src/core/Controller.cpp.obj
 Autoclicker.exe: CMakeFiles/Autoclicker.dir/src/core/Engine.cpp.obj
+Autoclicker.exe: CMakeFiles/Autoclicker.dir/src/core/Registry.cpp.obj
 Autoclicker.exe: CMakeFiles/Autoclicker.dir/src/input/InputManager.cpp.obj
 Autoclicker.exe: CMakeFiles/Autoclicker.dir/src/services/ProfileManager.cpp.obj
 Autoclicker.exe: CMakeFiles/Autoclicker.dir/src/strategies/FixedStrategy.cpp.obj
@@ -244,7 +261,7 @@ Autoclicker.exe: C:/Qt/6.10.2/mingw_64/lib/libQt6Core.a
 Autoclicker.exe: CMakeFiles/Autoclicker.dir/linkLibs.rsp
 Autoclicker.exe: CMakeFiles/Autoclicker.dir/objects1.rsp
 Autoclicker.exe: CMakeFiles/Autoclicker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\pbent\Desktop\Autocliker\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Autoclicker.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\pbent\Desktop\Autocliker\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Autoclicker.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Autoclicker.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

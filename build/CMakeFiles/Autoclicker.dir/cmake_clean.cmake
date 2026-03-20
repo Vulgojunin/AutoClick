@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Autoclicker.dir/src/core/Controller.cpp.obj.d"
   "CMakeFiles/Autoclicker.dir/src/core/Engine.cpp.obj"
   "CMakeFiles/Autoclicker.dir/src/core/Engine.cpp.obj.d"
+  "CMakeFiles/Autoclicker.dir/src/core/Registry.cpp.obj"
+  "CMakeFiles/Autoclicker.dir/src/core/Registry.cpp.obj.d"
   "CMakeFiles/Autoclicker.dir/src/input/InputManager.cpp.obj"
   "CMakeFiles/Autoclicker.dir/src/input/InputManager.cpp.obj.d"
   "CMakeFiles/Autoclicker.dir/src/services/ProfileManager.cpp.obj"

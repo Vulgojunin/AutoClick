@@ -1,7 +1,7 @@
 CMakeFiles/Autoclicker.dir/src/actions/ClickAction.cpp.obj: \
  C:\Users\pbent\Desktop\Autocliker\src\actions\ClickAction.cpp \
  C:\Users\pbent\Desktop\Autocliker\src\actions\ClickAction.h \
- C:\Users\pbent\Desktop\Autocliker\src\actions\interfaces/IAction.h \
+ C:/Users/pbent/Desktop/Autocliker/src/core/interfaces/IAction.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/windows.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw.h \
  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/_mingw_mac.h \

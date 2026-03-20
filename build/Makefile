@@ -274,6 +274,30 @@ src/core/Engine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Autoclicker.dir\build.make CMakeFiles/Autoclicker.dir/src/core/Engine.cpp.s
 .PHONY : src/core/Engine.cpp.s
 
+src/core/Registry.obj: src/core/Registry.cpp.obj
+.PHONY : src/core/Registry.obj
+
+# target to build an object file
+src/core/Registry.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Autoclicker.dir\build.make CMakeFiles/Autoclicker.dir/src/core/Registry.cpp.obj
+.PHONY : src/core/Registry.cpp.obj
+
+src/core/Registry.i: src/core/Registry.cpp.i
+.PHONY : src/core/Registry.i
+
+# target to preprocess a source file
+src/core/Registry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Autoclicker.dir\build.make CMakeFiles/Autoclicker.dir/src/core/Registry.cpp.i
+.PHONY : src/core/Registry.cpp.i
+
+src/core/Registry.s: src/core/Registry.cpp.s
+.PHONY : src/core/Registry.s
+
+# target to generate assembly for a file
+src/core/Registry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Autoclicker.dir\build.make CMakeFiles/Autoclicker.dir/src/core/Registry.cpp.s
+.PHONY : src/core/Registry.cpp.s
+
 src/input/InputManager.obj: src/input/InputManager.cpp.obj
 .PHONY : src/input/InputManager.obj
 
@@ -396,6 +420,9 @@ help:
 	@echo ... src/core/Engine.obj
 	@echo ... src/core/Engine.i
 	@echo ... src/core/Engine.s
+	@echo ... src/core/Registry.obj
+	@echo ... src/core/Registry.i
+	@echo ... src/core/Registry.s
 	@echo ... src/input/InputManager.obj
 	@echo ... src/input/InputManager.i
 	@echo ... src/input/InputManager.s

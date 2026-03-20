@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/pbent/Desktop/Autocliker/src/actions/ClickAction.cpp" "CMakeFiles/Autoclicker.dir/src/actions/ClickAction.cpp.obj" "gcc" "CMakeFiles/Autoclicker.dir/src/actions/ClickAction.cpp.obj.d"
   "C:/Users/pbent/Desktop/Autocliker/src/core/Controller.cpp" "CMakeFiles/Autoclicker.dir/src/core/Controller.cpp.obj" "gcc" "CMakeFiles/Autoclicker.dir/src/core/Controller.cpp.obj.d"
   "C:/Users/pbent/Desktop/Autocliker/src/core/Engine.cpp" "CMakeFiles/Autoclicker.dir/src/core/Engine.cpp.obj" "gcc" "CMakeFiles/Autoclicker.dir/src/core/Engine.cpp.obj.d"
+  "C:/Users/pbent/Desktop/Autocliker/src/core/Registry.cpp" "CMakeFiles/Autoclicker.dir/src/core/Registry.cpp.obj" "gcc" "CMakeFiles/Autoclicker.dir/src/core/Registry.cpp.obj.d"
   "C:/Users/pbent/Desktop/Autocliker/src/input/InputManager.cpp" "CMakeFiles/Autoclicker.dir/src/input/InputManager.cpp.obj" "gcc" "CMakeFiles/Autoclicker.dir/src/input/InputManager.cpp.obj.d"
   "C:/Users/pbent/Desktop/Autocliker/src/services/ProfileManager.cpp" "CMakeFiles/Autoclicker.dir/src/services/ProfileManager.cpp.obj" "gcc" "CMakeFiles/Autoclicker.dir/src/services/ProfileManager.cpp.obj.d"
   "C:/Users/pbent/Desktop/Autocliker/src/strategies/FixedStrategy.cpp" "CMakeFiles/Autoclicker.dir/src/strategies/FixedStrategy.cpp.obj" "gcc" "CMakeFiles/Autoclicker.dir/src/strategies/FixedStrategy.cpp.obj.d"
