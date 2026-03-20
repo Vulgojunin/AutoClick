@@ -13,13 +13,16 @@ public:
 
     void registerObserver(IControllerObserver* observer);
     void notifyStatus(Status s);
+    
     void requestStart();
     void requestStop();
+    void toggleExecution(); // Inverte entre Start/Stop (F6)
     void updateDelay(int ms);
 
 private:
     std::unique_ptr<Engine> m_engine; 
     std::vector<IControllerObserver*> m_observers;
+    bool m_isRunning = false; 
 };
 
 #endif

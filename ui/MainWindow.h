@@ -19,21 +19,27 @@ public:
     explicit MainWindow(Controller* controller, QWidget* parent = nullptr);
     ~MainWindow();
 
-    // Implementação da Interface
+    // --- CONTRATO COM O OBSERVER (APENAS UMA VEZ CADA!) ---
     void onStatusChanged(Status s) override;
-    void onSettingsChanged(int delay, int clickType) override {}
+    void onSettingsChanged(int delay, int clickType) override; 
+
+protected:
+    // Captura o F6 do teclado (API do Windows)
+    bool nativeEvent(const QByteArray &eventType, void *message, qintptr *result) override;
 
 private:
-    void setupStyles(); // Onde a mágica visual acontece
+    void setupLayout();
+    void setupStyles();
     
     Controller* m_controller;
 
-    // Widgets de Controle
-    QPushButton *m_btnStart, *m_btnStop, *m_btnPause;
+    // --- ELEMENTOS VISUAIS (WIDGETS) ---
+    QLabel* m_lblStatus;
     QSlider* m_sliderDelay;
     QSpinBox* m_spinDelay;
     QComboBox* m_comboMouseBtn;
-    QLabel* m_lblStatus;
+    QPushButton* m_btnStart;
+    QPushButton* m_btnStop;
 };
 
 #endif

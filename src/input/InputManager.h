@@ -1,13 +1,12 @@
-#pragma once
+#ifndef INPUTMANAGER_H
+#define INPUTMANAGER_H
 
-// Enumeração limpa e moderna para as nossas teclas (podes adicionar mais no futuro)
-enum class KeyCode {
-    F6,
-    F7
-};
+#include <windows.h>
 
 class InputManager {
 public:
-    // Retorna 'true' se a tecla estiver a ser pressionada no momento
-    static bool isKeyPressed(KeyCode key);
+    // Usamos 'int' para representar as teclas do Windows (VK_F6, VK_SPACE, etc)
+    static bool isKeyPressed(int vKey);
 };
+
+#endif
