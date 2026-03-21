@@ -4,7 +4,9 @@
 class IAction {
 public:
     virtual ~IAction() = default;
+
+    // Executa a ação concreta (clique, pressionar tecla, etc.)
     virtual void execute() = 0;
 };
 
-#endif
+#endif // IACTION_H

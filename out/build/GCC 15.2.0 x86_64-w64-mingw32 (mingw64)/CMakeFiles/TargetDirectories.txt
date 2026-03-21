@@ -1,0 +1,5 @@
+C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/Autoclicker.dir
+C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/edit_cache.dir
+C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/rebuild_cache.dir
+C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/Autoclicker_autogen_timestamp_deps.dir
+C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/Autoclicker_autogen.dir

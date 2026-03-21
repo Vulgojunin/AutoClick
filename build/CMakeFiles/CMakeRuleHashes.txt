@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-f9250df7c5a7222e1086a5f7b1ce1b8d Autoclicker_autogen/timestamp
-25b0def52a475f434c2ca7feb60a8561 CMakeFiles/Autoclicker_autogen

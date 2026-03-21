@@ -1,45 +1,24 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <QtWidgets/QMainWindow>
-#include <QtWidgets/QPushButton>
-#include <QtWidgets/QLabel>
-#include <QtWidgets/QSlider>
-#include <QtWidgets/QSpinBox>
-#include <QtWidgets/QComboBox>
-#include <QtWidgets/QGroupBox>
-#include "core/interfaces/IControllerObserver.h"
+#include <QMainWindow>
+#include "controller/Controller.h" // Inclui o controller para a UI conhecê-lo
 
-class Controller;
+QT_BEGIN_NAMESPACE
+namespace Ui { class MainWindow; }
+QT_END_NAMESPACE
 
-class MainWindow : public QMainWindow, public IControllerObserver {
+class MainWindow : public QMainWindow {
     Q_OBJECT
 
 public:
-    explicit MainWindow(Controller* controller, QWidget* parent = nullptr);
+    // O construtor agora EXIGE um ponteiro para o Controller
+    explicit MainWindow(Controller* controller, QWidget *parent = nullptr);
     ~MainWindow();
 
-    // --- CONTRATO COM O OBSERVER (APENAS UMA VEZ CADA!) ---
-    void onStatusChanged(Status s) override;
-    void onSettingsChanged(int delay, int clickType) override; 
-
-protected:
-    // Captura o F6 do teclado (API do Windows)
-    bool nativeEvent(const QByteArray &eventType, void *message, qintptr *result) override;
-
 private:
-    void setupLayout();
-    void setupStyles();
-    
-    Controller* m_controller;
-
-    // --- ELEMENTOS VISUAIS (WIDGETS) ---
-    QLabel* m_lblStatus;
-    QSlider* m_sliderDelay;
-    QSpinBox* m_spinDelay;
-    QComboBox* m_comboMouseBtn;
-    QPushButton* m_btnStart;
-    QPushButton* m_btnStop;
+    Ui::MainWindow *ui;
+    Controller* m_controller; // Variável para guardar o controller
 };
 
-#endif
+#endif // MAINWINDOW_H
