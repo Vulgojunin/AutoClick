@@ -164,6 +164,7 @@ C:/Users/pbent/Desktop/Autocliker/out/build/GCC\ 15.2.0\ x86_64-w64-mingw32\ (mi
   C:/Users/pbent/Desktop/Autocliker/src/application/use_cases/AppCommand.h \
   C:/Users/pbent/Desktop/Autocliker/src/application/use_cases/AppTypes.h \
   C:/Users/pbent/Desktop/Autocliker/src/controller/Controller.h \
+  C:/Users/pbent/Desktop/Autocliker/src/core/CoreTypes.h \
   C:/Users/pbent/Desktop/Autocliker/src/core/engine/Engine.h \
   C:/Users/pbent/Desktop/Autocliker/src/core/engine/ExecutionNotifier.h \
   C:/Users/pbent/Desktop/Autocliker/src/core/interfaces/IAction.h \

@@ -386,20 +386,21 @@ CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj: \
  C:/Qt/6.10.2/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/qtabwidget.h \
  C:/Users/pbent/Desktop/Autocliker/src/controller/Controller.h \
+ C:/Users/pbent/Desktop/Autocliker/src/application/use_cases/AppCommand.h \
+ C:/Users/pbent/Desktop/Autocliker/src/application/use_cases/AppTypes.h \
+ C:/Users/pbent/Desktop/Autocliker/src/core/CoreTypes.h \
+ C:/Users/pbent/Desktop/Autocliker/src/core/engine/ExecutionNotifier.h \
+ C:/msys64/mingw64/include/c++/15.2.0/mutex \
+ C:/msys64/mingw64/include/c++/15.2.0/bits/std_mutex.h \
+ C:/msys64/mingw64/include/c++/15.2.0/bits/unique_lock.h \
+ C:/Users/pbent/Desktop/Autocliker/src/core/interfaces/IControllerObserver.h \
  C:/Users/pbent/Desktop/Autocliker/src/core/engine/Engine.h \
  C:/msys64/mingw64/include/c++/15.2.0/thread \
  C:/msys64/mingw64/include/c++/15.2.0/bits/std_thread.h \
  C:/msys64/mingw64/include/c++/15.2.0/bits/this_thread_sleep.h \
  C:/msys64/mingw64/include/c++/15.2.0/condition_variable \
- C:/msys64/mingw64/include/c++/15.2.0/bits/std_mutex.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/unique_lock.h \
- C:/msys64/mingw64/include/c++/15.2.0/mutex \
  C:/Users/pbent/Desktop/Autocliker/src/core/interfaces/IStrategy.h \
  C:/Users/pbent/Desktop/Autocliker/src/core/interfaces/IAction.h \
- C:/Users/pbent/Desktop/Autocliker/src/core/engine/ExecutionNotifier.h \
- C:/Users/pbent/Desktop/Autocliker/src/core/interfaces/IControllerObserver.h \
- C:/Users/pbent/Desktop/Autocliker/src/application/use_cases/AppTypes.h \
- C:/Users/pbent/Desktop/Autocliker/src/application/use_cases/AppCommand.h \
  C:/Users/pbent/Desktop/AUTOCL~1/out/build/GCC152~1.0X8/AUTOCL~1/include/ui_MainWindow.h \
  C:/Qt/6.10.2/mingw_64/include/QtCore/QVariant \
  C:/Qt/6.10.2/mingw_64/include/QtCore/qvariant.h \
@@ -417,9 +418,6 @@ CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj: \
  C:/Qt/6.10.2/mingw_64/include/QtGui/qinputmethod.h \
  C:/Qt/6.10.2/mingw_64/include/QtCore/qlocale.h \
  C:/Qt/6.10.2/mingw_64/include/QtGui/qguiapplication_platform.h \
- C:/Qt/6.10.2/mingw_64/include/QtWidgets/QCheckBox \
- C:/Qt/6.10.2/mingw_64/include/QtWidgets/qcheckbox.h \
- C:/Qt/6.10.2/mingw_64/include/QtWidgets/qabstractbutton.h \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/QComboBox \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/qcombobox.h \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
@@ -437,6 +435,7 @@ CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj: \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/QPushButton \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/qpushbutton.h \
+ C:/Qt/6.10.2/mingw_64/include/QtWidgets/qabstractbutton.h \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/QSpinBox \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/qspinbox.h \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/QStatusBar \
@@ -448,4 +447,10 @@ CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj: \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/qboxlayout.h \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/qgridlayout.h \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/QWidget \
- C:/Qt/6.10.2/mingw_64/include/QtWidgets/qwidget.h
+ C:/Qt/6.10.2/mingw_64/include/QtWidgets/qwidget.h \
+ C:/Qt/6.10.2/mingw_64/include/QtCore/QMetaObject \
+ C:/Qt/6.10.2/mingw_64/include/QtCore/qobjectdefs.h \
+ C:/Qt/6.10.2/mingw_64/include/QtWidgets/QMessageBox \
+ C:/Qt/6.10.2/mingw_64/include/QtWidgets/qmessagebox.h \
+ C:/Qt/6.10.2/mingw_64/include/QtWidgets/qdialog.h \
+ C:/Qt/6.10.2/mingw_64/include/QtWidgets/qdialogbuttonbox.h

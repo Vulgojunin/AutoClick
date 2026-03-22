@@ -2,34 +2,40 @@
 #define EXECUTIONNOTIFIER_H
 
 #include <vector>
+#include <mutex>
 #include <algorithm>
 #include "core/interfaces/IControllerObserver.h"
 
 class ExecutionNotifier {
 private:
     std::vector<IControllerObserver*> m_observers;
+    std::mutex m_mutex;
 
 public:
     void addObserver(IControllerObserver* obs) {
-        if (obs && std::find(m_observers.begin(), m_observers.end(), obs) == m_observers.end()) {
+        std::lock_guard<std::mutex> lock(m_mutex);
+        if (std::find(m_observers.begin(), m_observers.end(), obs) == m_observers.end()) {
             m_observers.push_back(obs);
         }
     }
 
+    // CORREÇÃO: Remoção segura do Observer
     void removeObserver(IControllerObserver* obs) {
-        m_observers.erase(std::remove(m_observers.begin(), m_observers.end(), obs), m_observers.end());
+        std::lock_guard<std::mutex> lock(m_mutex);
+        m_observers.erase(
+            std::remove(m_observers.begin(), m_observers.end(), obs), 
+            m_observers.end()
+        );
     }
 
     void notifyStarted() {
-        for (auto observer : m_observers) {
-            if (observer) observer->onExecutionStarted();
-        }
+        std::lock_guard<std::mutex> lock(m_mutex);
+        for (auto obs : m_observers) obs->onExecutionStarted();
     }
 
     void notifyStopped() {
-        for (auto observer : m_observers) {
-            if (observer) observer->onExecutionStopped();
-        }
+        std::lock_guard<std::mutex> lock(m_mutex);
+        for (auto obs : m_observers) obs->onExecutionStopped();
     }
 };
 

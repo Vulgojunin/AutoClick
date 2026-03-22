@@ -52,7 +52,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 59,
+				"line" : 61,
 				"parent" : 0
 			},
 			{
@@ -186,7 +186,7 @@
 			{
 				"command" : 8,
 				"file" : 0,
-				"line" : 54,
+				"line" : 55,
 				"parent" : 0
 			},
 			{
@@ -269,6 +269,10 @@
 				},
 				{
 					"backtrace" : 27,
+					"path" : "C:/Users/pbent/Desktop/Autocliker"
+				},
+				{
+					"backtrace" : 27,
 					"path" : "C:/Users/pbent/Desktop/Autocliker/src"
 				},
 				{
@@ -327,11 +331,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "Autoclicker_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "Autoclicker_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Autoclicker_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "Autoclicker::@6890427a1f51a3e7e1df",
@@ -422,11 +426,11 @@
 			"id" : "Qt6::uic::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "Autoclicker_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "Autoclicker_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Autoclicker_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"paths" : 
@@ -470,7 +474,8 @@
 				21,
 				23,
 				24,
-				25
+				25,
+				26
 			]
 		},
 		{
@@ -478,14 +483,14 @@
 			"sourceIndexes" : 
 			[
 				4,
-				26
+				27
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				27
+				28
 			]
 		}
 	],
@@ -623,6 +628,11 @@
 		{
 			"backtrace" : 28,
 			"path" : "src/core/strategies/JitterStrategy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 28,
+			"path" : "src/core/CoreTypes.h",
 			"sourceGroupIndex" : 1
 		},
 		{

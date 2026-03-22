@@ -1,25 +1,27 @@
 #ifndef CONTROLLER_H
 #define CONTROLLER_H
 
-#include <vector>
-#include <string>
-
-// Agora o compilador busca a partir de 'src/', então o caminho abaixo é absoluto dentro do projeto
-#include "core/engine/Engine.h"
-#include "core/engine/ExecutionNotifier.h"
-#include "application/use_cases/AppTypes.h"
+#include <memory>
 #include "application/use_cases/AppCommand.h"
+#include "application/use_cases/AppTypes.h"
+#include "core/engine/ExecutionNotifier.h"
+#include "core/engine/Engine.h"
+#include "core/interfaces/IControllerObserver.h"
 
 class Controller {
-private:
-    Engine m_engine;
-    ExecutionNotifier m_notifier;
-
 public:
-    Controller() = default;
+    explicit Controller(Engine* engine);
+    
+    // Processa as ordens vindas da UI
     void handleCommand(AppCommand cmd, const CommandData& data);
+
+    // Gerenciamento de Observers (Ouvintes da UI)
     void subscribe(IControllerObserver* obs);
-    std::vector<std::string> getAvailableActions() const;
+    void unsubscribe(IControllerObserver* obs); // CORRIGIDO: Agora com 'un'
+
+private:
+    Engine* m_engine;
+    ExecutionNotifier m_notifier;
 };
 
-#endif
+#endif // CONTROLLER_H

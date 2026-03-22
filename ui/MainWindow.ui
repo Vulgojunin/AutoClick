@@ -6,54 +6,50 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>300</width>
+    <height>400</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Autoclicker Bento v1.0</string>
+   <string>Bento AutoClicker PRO</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <widget class="QSpinBox" name="intervalSpin">
+     <widget class="QSpinBox" name="spinBoxInterval">
       <property name="suffix">
        <string> ms</string>
       </property>
       <property name="maximum">
-       <number>999999</number>
+       <number>99999</number>
       </property>
       <property name="value">
-       <number>1000</number>
+       <number>100</number>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="actionCombo"/>
+     <widget class="QComboBox" name="comboBox"/>
     </item>
     <item>
-     <widget class="QCheckBox" name="jitterCheck">
-      <property name="text">
-       <string>Ativar Jitter (Humano)</string>
-      </property>
-     </widget>
+     <widget class="QComboBox" name="comboBoxStrategy"/>
     </item>
     <item>
-     <widget class="QSpinBox" name="jitterSpin">
+     <widget class="QSpinBox" name="spinBoxJitter">
       <property name="suffix">
-       <string> ms</string>
+       <string> ms (Jitter)</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="startBtn">
+     <widget class="QPushButton" name="pushButtonStart">
       <property name="text">
        <string>Start</string>
       </property>
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="stopBtn">
+     <widget class="QPushButton" name="pushButtonStop">
       <property name="text">
        <string>Stop</string>
       </property>
@@ -61,7 +57,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>

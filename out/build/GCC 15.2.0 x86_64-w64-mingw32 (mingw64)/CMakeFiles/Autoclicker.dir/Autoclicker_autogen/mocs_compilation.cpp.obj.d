@@ -387,20 +387,21 @@ CMakeFiles/Autoclicker.dir/Autoclicker_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.10.2/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/qtabwidget.h \
  C:/Users/pbent/Desktop/Autocliker/src/controller/Controller.h \
+ C:/Users/pbent/Desktop/Autocliker/src/application/use_cases/AppCommand.h \
+ C:/Users/pbent/Desktop/Autocliker/src/application/use_cases/AppTypes.h \
+ C:/Users/pbent/Desktop/Autocliker/src/core/CoreTypes.h \
+ C:/Users/pbent/Desktop/Autocliker/src/core/engine/ExecutionNotifier.h \
+ C:/msys64/mingw64/include/c++/15.2.0/mutex \
+ C:/msys64/mingw64/include/c++/15.2.0/bits/std_mutex.h \
+ C:/msys64/mingw64/include/c++/15.2.0/bits/unique_lock.h \
+ C:/Users/pbent/Desktop/Autocliker/src/core/interfaces/IControllerObserver.h \
  C:/Users/pbent/Desktop/Autocliker/src/core/engine/Engine.h \
  C:/msys64/mingw64/include/c++/15.2.0/thread \
  C:/msys64/mingw64/include/c++/15.2.0/bits/std_thread.h \
  C:/msys64/mingw64/include/c++/15.2.0/bits/this_thread_sleep.h \
  C:/msys64/mingw64/include/c++/15.2.0/condition_variable \
- C:/msys64/mingw64/include/c++/15.2.0/bits/std_mutex.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/unique_lock.h \
- C:/msys64/mingw64/include/c++/15.2.0/mutex \
  C:/Users/pbent/Desktop/Autocliker/src/core/interfaces/IStrategy.h \
  C:/Users/pbent/Desktop/Autocliker/src/core/interfaces/IAction.h \
- C:/Users/pbent/Desktop/Autocliker/src/core/engine/ExecutionNotifier.h \
- C:/Users/pbent/Desktop/Autocliker/src/core/interfaces/IControllerObserver.h \
- C:/Users/pbent/Desktop/Autocliker/src/application/use_cases/AppTypes.h \
- C:/Users/pbent/Desktop/Autocliker/src/application/use_cases/AppCommand.h \
  C:/Qt/6.10.2/mingw_64/include/QtCore/qtmochelpers.h \
  C:/Qt/6.10.2/mingw_64/include/QtCore/qtmocconstants.h \
  C:/Qt/6.10.2/mingw_64/include/QtCore/q20algorithm.h

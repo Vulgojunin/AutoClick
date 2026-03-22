@@ -11,7 +11,6 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QCheckBox>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
@@ -27,59 +26,59 @@ class Ui_MainWindow
 public:
     QWidget *centralwidget;
     QVBoxLayout *verticalLayout;
-    QSpinBox *intervalSpin;
-    QComboBox *actionCombo;
-    QCheckBox *jitterCheck;
-    QSpinBox *jitterSpin;
-    QPushButton *startBtn;
-    QPushButton *stopBtn;
-    QStatusBar *statusBar;
+    QSpinBox *spinBoxInterval;
+    QComboBox *comboBox;
+    QComboBox *comboBoxStrategy;
+    QSpinBox *spinBoxJitter;
+    QPushButton *pushButtonStart;
+    QPushButton *pushButtonStop;
+    QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(400, 300);
+        MainWindow->resize(300, 400);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         verticalLayout = new QVBoxLayout(centralwidget);
         verticalLayout->setObjectName("verticalLayout");
-        intervalSpin = new QSpinBox(centralwidget);
-        intervalSpin->setObjectName("intervalSpin");
-        intervalSpin->setMaximum(999999);
-        intervalSpin->setValue(1000);
+        spinBoxInterval = new QSpinBox(centralwidget);
+        spinBoxInterval->setObjectName("spinBoxInterval");
+        spinBoxInterval->setMaximum(99999);
+        spinBoxInterval->setValue(100);
 
-        verticalLayout->addWidget(intervalSpin);
+        verticalLayout->addWidget(spinBoxInterval);
 
-        actionCombo = new QComboBox(centralwidget);
-        actionCombo->setObjectName("actionCombo");
+        comboBox = new QComboBox(centralwidget);
+        comboBox->setObjectName("comboBox");
 
-        verticalLayout->addWidget(actionCombo);
+        verticalLayout->addWidget(comboBox);
 
-        jitterCheck = new QCheckBox(centralwidget);
-        jitterCheck->setObjectName("jitterCheck");
+        comboBoxStrategy = new QComboBox(centralwidget);
+        comboBoxStrategy->setObjectName("comboBoxStrategy");
 
-        verticalLayout->addWidget(jitterCheck);
+        verticalLayout->addWidget(comboBoxStrategy);
 
-        jitterSpin = new QSpinBox(centralwidget);
-        jitterSpin->setObjectName("jitterSpin");
+        spinBoxJitter = new QSpinBox(centralwidget);
+        spinBoxJitter->setObjectName("spinBoxJitter");
 
-        verticalLayout->addWidget(jitterSpin);
+        verticalLayout->addWidget(spinBoxJitter);
 
-        startBtn = new QPushButton(centralwidget);
-        startBtn->setObjectName("startBtn");
+        pushButtonStart = new QPushButton(centralwidget);
+        pushButtonStart->setObjectName("pushButtonStart");
 
-        verticalLayout->addWidget(startBtn);
+        verticalLayout->addWidget(pushButtonStart);
 
-        stopBtn = new QPushButton(centralwidget);
-        stopBtn->setObjectName("stopBtn");
+        pushButtonStop = new QPushButton(centralwidget);
+        pushButtonStop->setObjectName("pushButtonStop");
 
-        verticalLayout->addWidget(stopBtn);
+        verticalLayout->addWidget(pushButtonStop);
 
         MainWindow->setCentralWidget(centralwidget);
-        statusBar = new QStatusBar(MainWindow);
-        statusBar->setObjectName("statusBar");
-        MainWindow->setStatusBar(statusBar);
+        statusbar = new QStatusBar(MainWindow);
+        statusbar->setObjectName("statusbar");
+        MainWindow->setStatusBar(statusbar);
 
         retranslateUi(MainWindow);
 
@@ -88,12 +87,11 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Autoclicker Bento v1.0", nullptr));
-        intervalSpin->setSuffix(QCoreApplication::translate("MainWindow", " ms", nullptr));
-        jitterCheck->setText(QCoreApplication::translate("MainWindow", "Ativar Jitter (Humano)", nullptr));
-        jitterSpin->setSuffix(QCoreApplication::translate("MainWindow", " ms", nullptr));
-        startBtn->setText(QCoreApplication::translate("MainWindow", "Start", nullptr));
-        stopBtn->setText(QCoreApplication::translate("MainWindow", "Stop", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Bento AutoClicker PRO", nullptr));
+        spinBoxInterval->setSuffix(QCoreApplication::translate("MainWindow", " ms", nullptr));
+        spinBoxJitter->setSuffix(QCoreApplication::translate("MainWindow", " ms (Jitter)", nullptr));
+        pushButtonStart->setText(QCoreApplication::translate("MainWindow", "Start", nullptr));
+        pushButtonStop->setText(QCoreApplication::translate("MainWindow", "Stop", nullptr));
     } // retranslateUi
 
 };

@@ -2,23 +2,32 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "controller/Controller.h" // Inclui o controller para a UI conhecê-lo
+#include "controller/Controller.h"
+#include "core/interfaces/IControllerObserver.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
-class MainWindow : public QMainWindow {
+class MainWindow : public QMainWindow, public IControllerObserver {
     Q_OBJECT
 
 public:
-    // O construtor agora EXIGE um ponteiro para o Controller
     explicit MainWindow(Controller* controller, QWidget *parent = nullptr);
     ~MainWindow();
 
+    // Contrato do Observer
+    void onExecutionStarted() override;
+    void onExecutionStopped() override;
+
+private slots:
+    // CORREÇÃO: Lambdas extraídas para métodos privados (Clean Code)
+    void onStartClicked();
+    void onStopClicked();
+
 private:
     Ui::MainWindow *ui;
-    Controller* m_controller; // Variável para guardar o controller
+    Controller* m_controller;
 };
 
 #endif // MAINWINDOW_H

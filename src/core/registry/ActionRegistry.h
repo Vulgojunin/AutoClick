@@ -3,24 +3,19 @@
 
 #include <memory>
 #include "core/interfaces/IAction.h"
-#include "core/actions/ClickAction.h" // Garante que a classe concreta seja conhecida
-#include "application/use_cases/AppTypes.h"
+#include "core/actions/ClickAction.h" // Mantendo sua classe atual
+#include "core/CoreTypes.h"
 
 class ActionRegistry {
 public:
-    // Cria a ação de execução (clique do mouse, etc)
     static std::unique_ptr<IAction> create(ActionType type) {
         switch (type) {
             case ActionType::LeftClick:
-                // Por enquanto, usamos ClickAction para simular o clique esquerdo
-                return std::make_unique<ClickAction>();
-
-            case ActionType::RightClick:
-                // Futuramente você pode criar a classe RightClickAction
-                return std::make_unique<ClickAction>();
-
+            case ActionType::RightClick: 
+                return std::make_unique<ClickAction>(); 
+            case ActionType::None:
             default:
-                return std::make_unique<ClickAction>();
+                return nullptr; // Evita instanciar lixo na memória
         }
     }
 };

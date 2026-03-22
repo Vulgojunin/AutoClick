@@ -14,7 +14,7 @@ find_package(Qt6 COMPONENTS Widgets REQUIRED)
 # Cria o executável
 add_executable(Autoclicker)
 
-# Registro explícito - O AppCommand.h agora está em use_cases
+# Registro de arquivos
 target_sources(Autoclicker PRIVATE
     src/main.cpp
 
@@ -48,12 +48,14 @@ target_sources(Autoclicker PRIVATE
     src/core/actions/ClickAction.cpp
     src/core/strategies/FixedStrategy.h
     src/core/strategies/JitterStrategy.h
+    src/core/CoreTypes.h
 )
 
-# Diretórios de include (Mantendo o isolamento na src)
+# DIRETÓRIOS DE INCLUDE (O segredo está aqui)
 target_include_directories(Autoclicker PRIVATE 
-    "${CMAKE_CURRENT_SOURCE_DIR}/src"
-    "${CMAKE_CURRENT_SOURCE_DIR}/ui"
+    "${CMAKE_CURRENT_SOURCE_DIR}"      # Permite include "ui/..." e "src/..."
+    "${CMAKE_CURRENT_SOURCE_DIR}/src"  # Permite include direto sem o prefixo src
+    "${CMAKE_CURRENT_SOURCE_DIR}/ui"   # Permite include direto sem o prefixo ui
 )
 
 target_link_libraries(Autoclicker PRIVATE 
