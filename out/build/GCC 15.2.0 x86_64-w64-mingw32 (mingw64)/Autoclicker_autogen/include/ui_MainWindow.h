@@ -12,13 +12,12 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QComboBox>
-#include <QtWidgets/QFormLayout>
 #include <QtWidgets/QGroupBox>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QSpacerItem>
+#include <QtWidgets/QRadioButton>
 #include <QtWidgets/QSpinBox>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QVBoxLayout>
@@ -30,152 +29,154 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
-    QVBoxLayout *verticalLayout_main;
+    QVBoxLayout *verticalLayout;
     QGroupBox *groupBoxInterval;
-    QFormLayout *formLayoutInterval;
-    QLabel *labelInterval;
-    QSpinBox *spinBoxInterval;
-    QLabel *labelJitter;
-    QSpinBox *spinBoxJitter;
+    QHBoxLayout *hLayout;
+    QLabel *lH;
+    QSpinBox *spinBoxHours;
+    QLabel *lM;
+    QSpinBox *spinBoxMins;
+    QLabel *lS;
+    QSpinBox *spinBoxSecs;
+    QLabel *lMs;
+    QSpinBox *spinBoxMs;
     QGroupBox *groupBoxOptions;
-    QFormLayout *formLayoutOptions;
-    QLabel *labelBotao;
-    QComboBox *comboBox;
-    QLabel *labelEstrategia;
-    QComboBox *comboBoxStrategy;
-    QGroupBox *groupBoxHotkeys;
-    QFormLayout *formLayoutHotkeys;
-    QLabel *labelStartKey;
-    QComboBox *comboBoxStartKey;
-    QLabel *labelStopKey;
-    QComboBox *comboBoxStopKey;
-    QLabel *labelMacroInfo;
-    QHBoxLayout *horizontalLayoutButtons;
+    QVBoxLayout *vLayoutOpt;
+    QComboBox *comboBoxButton;
+    QComboBox *comboBoxType;
+    QGroupBox *groupBoxRepeat;
+    QVBoxLayout *vLayoutRep;
+    QRadioButton *radioInfinite;
+    QHBoxLayout *hLayoutRep;
+    QRadioButton *radioRepeat;
+    QSpinBox *spinBoxTimes;
+    QLabel *lT;
+    QHBoxLayout *hLayoutBtns;
     QPushButton *pushButtonStop;
     QPushButton *pushButtonStart;
-    QSpacerItem *verticalSpacer;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MainWindow)
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(380, 520);
+        MainWindow->resize(420, 380);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
-        verticalLayout_main = new QVBoxLayout(centralwidget);
-        verticalLayout_main->setSpacing(15);
-        verticalLayout_main->setObjectName("verticalLayout_main");
-        verticalLayout_main->setContentsMargins(20, 20, 20, 20);
+        verticalLayout = new QVBoxLayout(centralwidget);
+        verticalLayout->setObjectName("verticalLayout");
         groupBoxInterval = new QGroupBox(centralwidget);
         groupBoxInterval->setObjectName("groupBoxInterval");
-        formLayoutInterval = new QFormLayout(groupBoxInterval);
-        formLayoutInterval->setObjectName("formLayoutInterval");
-        labelInterval = new QLabel(groupBoxInterval);
-        labelInterval->setObjectName("labelInterval");
+        hLayout = new QHBoxLayout(groupBoxInterval);
+        hLayout->setObjectName("hLayout");
+        lH = new QLabel(groupBoxInterval);
+        lH->setObjectName("lH");
 
-        formLayoutInterval->setWidget(0, QFormLayout::ItemRole::LabelRole, labelInterval);
+        hLayout->addWidget(lH);
 
-        spinBoxInterval = new QSpinBox(groupBoxInterval);
-        spinBoxInterval->setObjectName("spinBoxInterval");
-        spinBoxInterval->setMaximum(99999);
-        spinBoxInterval->setValue(100);
+        spinBoxHours = new QSpinBox(groupBoxInterval);
+        spinBoxHours->setObjectName("spinBoxHours");
 
-        formLayoutInterval->setWidget(0, QFormLayout::ItemRole::FieldRole, spinBoxInterval);
+        hLayout->addWidget(spinBoxHours);
 
-        labelJitter = new QLabel(groupBoxInterval);
-        labelJitter->setObjectName("labelJitter");
+        lM = new QLabel(groupBoxInterval);
+        lM->setObjectName("lM");
 
-        formLayoutInterval->setWidget(1, QFormLayout::ItemRole::LabelRole, labelJitter);
+        hLayout->addWidget(lM);
 
-        spinBoxJitter = new QSpinBox(groupBoxInterval);
-        spinBoxJitter->setObjectName("spinBoxJitter");
+        spinBoxMins = new QSpinBox(groupBoxInterval);
+        spinBoxMins->setObjectName("spinBoxMins");
 
-        formLayoutInterval->setWidget(1, QFormLayout::ItemRole::FieldRole, spinBoxJitter);
+        hLayout->addWidget(spinBoxMins);
+
+        lS = new QLabel(groupBoxInterval);
+        lS->setObjectName("lS");
+
+        hLayout->addWidget(lS);
+
+        spinBoxSecs = new QSpinBox(groupBoxInterval);
+        spinBoxSecs->setObjectName("spinBoxSecs");
+
+        hLayout->addWidget(spinBoxSecs);
+
+        lMs = new QLabel(groupBoxInterval);
+        lMs->setObjectName("lMs");
+
+        hLayout->addWidget(lMs);
+
+        spinBoxMs = new QSpinBox(groupBoxInterval);
+        spinBoxMs->setObjectName("spinBoxMs");
+        spinBoxMs->setMaximum(999);
+
+        hLayout->addWidget(spinBoxMs);
 
 
-        verticalLayout_main->addWidget(groupBoxInterval);
+        verticalLayout->addWidget(groupBoxInterval);
 
         groupBoxOptions = new QGroupBox(centralwidget);
         groupBoxOptions->setObjectName("groupBoxOptions");
-        formLayoutOptions = new QFormLayout(groupBoxOptions);
-        formLayoutOptions->setObjectName("formLayoutOptions");
-        labelBotao = new QLabel(groupBoxOptions);
-        labelBotao->setObjectName("labelBotao");
+        vLayoutOpt = new QVBoxLayout(groupBoxOptions);
+        vLayoutOpt->setObjectName("vLayoutOpt");
+        comboBoxButton = new QComboBox(groupBoxOptions);
+        comboBoxButton->setObjectName("comboBoxButton");
 
-        formLayoutOptions->setWidget(0, QFormLayout::ItemRole::LabelRole, labelBotao);
+        vLayoutOpt->addWidget(comboBoxButton);
 
-        comboBox = new QComboBox(groupBoxOptions);
-        comboBox->setObjectName("comboBox");
+        comboBoxType = new QComboBox(groupBoxOptions);
+        comboBoxType->setObjectName("comboBoxType");
 
-        formLayoutOptions->setWidget(0, QFormLayout::ItemRole::FieldRole, comboBox);
-
-        labelEstrategia = new QLabel(groupBoxOptions);
-        labelEstrategia->setObjectName("labelEstrategia");
-
-        formLayoutOptions->setWidget(1, QFormLayout::ItemRole::LabelRole, labelEstrategia);
-
-        comboBoxStrategy = new QComboBox(groupBoxOptions);
-        comboBoxStrategy->setObjectName("comboBoxStrategy");
-
-        formLayoutOptions->setWidget(1, QFormLayout::ItemRole::FieldRole, comboBoxStrategy);
+        vLayoutOpt->addWidget(comboBoxType);
 
 
-        verticalLayout_main->addWidget(groupBoxOptions);
+        verticalLayout->addWidget(groupBoxOptions);
 
-        groupBoxHotkeys = new QGroupBox(centralwidget);
-        groupBoxHotkeys->setObjectName("groupBoxHotkeys");
-        formLayoutHotkeys = new QFormLayout(groupBoxHotkeys);
-        formLayoutHotkeys->setObjectName("formLayoutHotkeys");
-        labelStartKey = new QLabel(groupBoxHotkeys);
-        labelStartKey->setObjectName("labelStartKey");
+        groupBoxRepeat = new QGroupBox(centralwidget);
+        groupBoxRepeat->setObjectName("groupBoxRepeat");
+        vLayoutRep = new QVBoxLayout(groupBoxRepeat);
+        vLayoutRep->setObjectName("vLayoutRep");
+        radioInfinite = new QRadioButton(groupBoxRepeat);
+        radioInfinite->setObjectName("radioInfinite");
 
-        formLayoutHotkeys->setWidget(0, QFormLayout::ItemRole::LabelRole, labelStartKey);
+        vLayoutRep->addWidget(radioInfinite);
 
-        comboBoxStartKey = new QComboBox(groupBoxHotkeys);
-        comboBoxStartKey->setObjectName("comboBoxStartKey");
+        hLayoutRep = new QHBoxLayout();
+        hLayoutRep->setObjectName("hLayoutRep");
+        radioRepeat = new QRadioButton(groupBoxRepeat);
+        radioRepeat->setObjectName("radioRepeat");
 
-        formLayoutHotkeys->setWidget(0, QFormLayout::ItemRole::FieldRole, comboBoxStartKey);
+        hLayoutRep->addWidget(radioRepeat);
 
-        labelStopKey = new QLabel(groupBoxHotkeys);
-        labelStopKey->setObjectName("labelStopKey");
+        spinBoxTimes = new QSpinBox(groupBoxRepeat);
+        spinBoxTimes->setObjectName("spinBoxTimes");
+        spinBoxTimes->setMaximum(999999);
 
-        formLayoutHotkeys->setWidget(1, QFormLayout::ItemRole::LabelRole, labelStopKey);
+        hLayoutRep->addWidget(spinBoxTimes);
 
-        comboBoxStopKey = new QComboBox(groupBoxHotkeys);
-        comboBoxStopKey->setObjectName("comboBoxStopKey");
+        lT = new QLabel(groupBoxRepeat);
+        lT->setObjectName("lT");
 
-        formLayoutHotkeys->setWidget(1, QFormLayout::ItemRole::FieldRole, comboBoxStopKey);
-
-        labelMacroInfo = new QLabel(groupBoxHotkeys);
-        labelMacroInfo->setObjectName("labelMacroInfo");
-        labelMacroInfo->setAlignment(Qt::AlignCenter);
-
-        formLayoutHotkeys->setWidget(2, QFormLayout::ItemRole::SpanningRole, labelMacroInfo);
+        hLayoutRep->addWidget(lT);
 
 
-        verticalLayout_main->addWidget(groupBoxHotkeys);
+        vLayoutRep->addLayout(hLayoutRep);
 
-        horizontalLayoutButtons = new QHBoxLayout();
-        horizontalLayoutButtons->setObjectName("horizontalLayoutButtons");
+
+        verticalLayout->addWidget(groupBoxRepeat);
+
+        hLayoutBtns = new QHBoxLayout();
+        hLayoutBtns->setObjectName("hLayoutBtns");
         pushButtonStop = new QPushButton(centralwidget);
         pushButtonStop->setObjectName("pushButtonStop");
-        pushButtonStop->setMinimumSize(QSize(0, 40));
 
-        horizontalLayoutButtons->addWidget(pushButtonStop);
+        hLayoutBtns->addWidget(pushButtonStop);
 
         pushButtonStart = new QPushButton(centralwidget);
         pushButtonStart->setObjectName("pushButtonStart");
-        pushButtonStart->setMinimumSize(QSize(0, 40));
 
-        horizontalLayoutButtons->addWidget(pushButtonStart);
+        hLayoutBtns->addWidget(pushButtonStart);
 
 
-        verticalLayout_main->addLayout(horizontalLayoutButtons);
-
-        verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
-
-        verticalLayout_main->addItem(verticalSpacer);
+        verticalLayout->addLayout(hLayoutBtns);
 
         MainWindow->setCentralWidget(centralwidget);
         statusbar = new QStatusBar(MainWindow);
@@ -189,19 +190,19 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Bento AutoClicker PRO", nullptr));
-        groupBoxInterval->setTitle(QCoreApplication::translate("MainWindow", "\342\217\261 Click Interval", nullptr));
-        labelInterval->setText(QCoreApplication::translate("MainWindow", "Intervalo (ms):", nullptr));
-        labelJitter->setText(QCoreApplication::translate("MainWindow", "Jitter (ms):", nullptr));
-        groupBoxOptions->setTitle(QCoreApplication::translate("MainWindow", "\360\237\226\261 Click Options", nullptr));
-        labelBotao->setText(QCoreApplication::translate("MainWindow", "Bot\303\243o do Mouse:", nullptr));
-        labelEstrategia->setText(QCoreApplication::translate("MainWindow", "Estrat\303\251gia:", nullptr));
-        groupBoxHotkeys->setTitle(QCoreApplication::translate("MainWindow", "\342\214\250 Hotkeys & Macro", nullptr));
-        labelStartKey->setText(QCoreApplication::translate("MainWindow", "Iniciar (Start):", nullptr));
-        labelStopKey->setText(QCoreApplication::translate("MainWindow", "Parar (Stop):", nullptr));
-        labelMacroInfo->setText(QCoreApplication::translate("MainWindow", "Gravar Macro: Pressione F8", nullptr));
+        groupBoxInterval->setTitle(QCoreApplication::translate("MainWindow", "Click Interval", nullptr));
+        lH->setText(QCoreApplication::translate("MainWindow", "H:", nullptr));
+        lM->setText(QCoreApplication::translate("MainWindow", "M:", nullptr));
+        lS->setText(QCoreApplication::translate("MainWindow", "S:", nullptr));
+        lMs->setText(QCoreApplication::translate("MainWindow", "Ms:", nullptr));
+        groupBoxOptions->setTitle(QCoreApplication::translate("MainWindow", "Click Options", nullptr));
+        groupBoxRepeat->setTitle(QCoreApplication::translate("MainWindow", "Click Repeat", nullptr));
+        radioInfinite->setText(QCoreApplication::translate("MainWindow", "Repeat until stopped", nullptr));
+        radioRepeat->setText(QCoreApplication::translate("MainWindow", "Repeat", nullptr));
+        lT->setText(QCoreApplication::translate("MainWindow", "times", nullptr));
         pushButtonStop->setText(QCoreApplication::translate("MainWindow", "Stop", nullptr));
         pushButtonStart->setText(QCoreApplication::translate("MainWindow", "Start", nullptr));
+        (void)MainWindow;
     } // retranslateUi
 
 };

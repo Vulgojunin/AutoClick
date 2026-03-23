@@ -1,0 +1,79 @@
+/* ============================================================
+   ESTILO GLOBAL (FUNDO E FONTES)
+   ============================================================ */
+QMainWindow, QWidget#centralwidget {
+    background-color: #1e2227; /* COR DE FUNDO PRINCIPAL */
+    color: #abb2bf;
+    font-family: "Segoe UI";
+    font-size: 13px;
+}
+
+/* ============================================================
+   CARDS (GROUPBOX) - Mude bordas e cores aqui
+   ============================================================ */
+QGroupBox {
+    background-color: #282c34; /* COR DO CARD */
+    border: 1px solid #3e4451;
+    border-radius: 8px;        /* ARREDONDAMENTO */
+    margin-top: 20px;
+    font-weight: bold;
+    color: #61afef;            /* COR DO TÍTULO DO CARD */
+}
+
+/* ÍCONES NOS CARDS (Requer pasta /icons) */
+QGroupBox#groupBoxInterval { qproperty-icon: url(icons/clock.png); }
+QGroupBox#groupBoxOptions  { qproperty-icon: url(icons/mouse.png); }
+QGroupBox#groupBoxRepeat   { qproperty-icon: url(icons/repeat.png); }
+
+/* ============================================================
+   BOTÃO START (O botão que brilha)
+   ============================================================ */
+QPushButton#pushButtonStart {
+    background-color: #98c379; /* VERDE */
+    color: #282c34;
+    border-radius: 6px;
+    font-weight: bold;
+    height: 35px;
+    qproperty-icon: url(icons/play.png); /* ÍCONE DE PLAY */
+}
+QPushButton#pushButtonStart:hover {
+    background-color: #abe38e; /* COR AO PASSAR O MOUSE */
+}
+QPushButton#pushButtonStart:disabled {
+    background-color: #4b5263;
+    color: #282c34;
+}
+
+/* ============================================================
+   BOTÃO STOP
+   ============================================================ */
+QPushButton#pushButtonStop {
+    background-color: transparent;
+    border: 1px solid #e06c75; /* BORDA VERMELHA */
+    color: #e06c75;
+    border-radius: 6px;
+    font-weight: bold;
+    height: 35px;
+}
+QPushButton#pushButtonStop:hover {
+    background-color: #e06c75;
+    color: #ffffff;
+}
+
+/* ============================================================
+   ENTRADAS (SPINBOX E COMBOBOX)
+   ============================================================ */
+QSpinBox, QComboBox {
+    background-color: #1e2227;
+    border: 1px solid #3e4451;
+    padding: 4px;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+/* Bolinha do Radio Button */
+QRadioButton::indicator:checked {
+    background-color: #61afef;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+}

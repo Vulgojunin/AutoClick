@@ -198,36 +198,6 @@ CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pbent\Desktop\Autocliker\Autocliker\src\core\actions\ClickAction.cpp -o CMakeFiles\Autoclicker.dir\src\core\actions\ClickAction.cpp.s
 
-CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.obj: CMakeFiles/Autoclicker.dir/flags.make
-CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.obj: CMakeFiles/Autoclicker.dir/includes_CXX.rsp
-CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.obj: C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/actions/MacroRecorder.cpp
-CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.obj: CMakeFiles/Autoclicker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.obj -MF CMakeFiles\Autoclicker.dir\src\core\actions\MacroRecorder.cpp.obj.d -o CMakeFiles\Autoclicker.dir\src\core\actions\MacroRecorder.cpp.obj -c C:\Users\pbent\Desktop\Autocliker\Autocliker\src\core\actions\MacroRecorder.cpp
-
-CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pbent\Desktop\Autocliker\Autocliker\src\core\actions\MacroRecorder.cpp > CMakeFiles\Autoclicker.dir\src\core\actions\MacroRecorder.cpp.i
-
-CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pbent\Desktop\Autocliker\Autocliker\src\core\actions\MacroRecorder.cpp -o CMakeFiles\Autoclicker.dir\src\core\actions\MacroRecorder.cpp.s
-
-CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.obj: CMakeFiles/Autoclicker.dir/flags.make
-CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.obj: CMakeFiles/Autoclicker.dir/includes_CXX.rsp
-CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.obj: C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/actions/PlayMacroAction.cpp
-CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.obj: CMakeFiles/Autoclicker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.obj -MF CMakeFiles\Autoclicker.dir\src\core\actions\PlayMacroAction.cpp.obj.d -o CMakeFiles\Autoclicker.dir\src\core\actions\PlayMacroAction.cpp.obj -c C:\Users\pbent\Desktop\Autocliker\Autocliker\src\core\actions\PlayMacroAction.cpp
-
-CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pbent\Desktop\Autocliker\Autocliker\src\core\actions\PlayMacroAction.cpp > CMakeFiles\Autoclicker.dir\src\core\actions\PlayMacroAction.cpp.i
-
-CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pbent\Desktop\Autocliker\Autocliker\src\core\actions\PlayMacroAction.cpp -o CMakeFiles\Autoclicker.dir\src\core\actions\PlayMacroAction.cpp.s
-
 # Object files for target Autoclicker
 Autoclicker_OBJECTS = \
 "CMakeFiles/Autoclicker.dir/Autoclicker_autogen/mocs_compilation.cpp.obj" \
@@ -237,9 +207,7 @@ Autoclicker_OBJECTS = \
 "CMakeFiles/Autoclicker.dir/src/application/use_cases/StartClickingUseCase.cpp.obj" \
 "CMakeFiles/Autoclicker.dir/src/application/use_cases/StopClickingUseCase.cpp.obj" \
 "CMakeFiles/Autoclicker.dir/src/core/engine/Engine.cpp.obj" \
-"CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.obj" \
-"CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.obj" \
-"CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.obj"
+"CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.obj"
 
 # External object files for target Autoclicker
 Autoclicker_EXTERNAL_OBJECTS =
@@ -252,8 +220,6 @@ Autoclicker.exe: CMakeFiles/Autoclicker.dir/src/application/use_cases/StartClick
 Autoclicker.exe: CMakeFiles/Autoclicker.dir/src/application/use_cases/StopClickingUseCase.cpp.obj
 Autoclicker.exe: CMakeFiles/Autoclicker.dir/src/core/engine/Engine.cpp.obj
 Autoclicker.exe: CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.obj
-Autoclicker.exe: CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.obj
-Autoclicker.exe: CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.obj
 Autoclicker.exe: CMakeFiles/Autoclicker.dir/build.make
 Autoclicker.exe: C:/Qt/6.10.2/mingw_64/lib/libQt6Widgets.a
 Autoclicker.exe: C:/Qt/6.10.2/mingw_64/lib/libQt6Gui.a
@@ -261,7 +227,7 @@ Autoclicker.exe: C:/Qt/6.10.2/mingw_64/lib/libQt6Core.a
 Autoclicker.exe: CMakeFiles/Autoclicker.dir/linkLibs.rsp
 Autoclicker.exe: CMakeFiles/Autoclicker.dir/objects1.rsp
 Autoclicker.exe: CMakeFiles/Autoclicker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Autoclicker.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Autoclicker.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Autoclicker.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

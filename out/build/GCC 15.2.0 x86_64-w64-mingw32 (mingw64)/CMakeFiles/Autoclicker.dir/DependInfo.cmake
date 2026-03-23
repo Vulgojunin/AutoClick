@@ -14,8 +14,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/pbent/Desktop/Autocliker/Autocliker/src/application/use_cases/StopClickingUseCase.cpp" "CMakeFiles/Autoclicker.dir/src/application/use_cases/StopClickingUseCase.cpp.obj" "gcc" "CMakeFiles/Autoclicker.dir/src/application/use_cases/StopClickingUseCase.cpp.obj.d"
   "C:/Users/pbent/Desktop/Autocliker/Autocliker/src/controller/Controller.cpp" "CMakeFiles/Autoclicker.dir/src/controller/Controller.cpp.obj" "gcc" "CMakeFiles/Autoclicker.dir/src/controller/Controller.cpp.obj.d"
   "C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/actions/ClickAction.cpp" "CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.obj" "gcc" "CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.obj.d"
-  "C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/actions/MacroRecorder.cpp" "CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.obj" "gcc" "CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.obj.d"
-  "C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/actions/PlayMacroAction.cpp" "CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.obj" "gcc" "CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.obj.d"
   "C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/engine/Engine.cpp" "CMakeFiles/Autoclicker.dir/src/core/engine/Engine.cpp.obj" "gcc" "CMakeFiles/Autoclicker.dir/src/core/engine/Engine.cpp.obj.d"
   "C:/Users/pbent/Desktop/Autocliker/Autocliker/src/main.cpp" "CMakeFiles/Autoclicker.dir/src/main.cpp.obj" "gcc" "CMakeFiles/Autoclicker.dir/src/main.cpp.obj.d"
   "C:/Users/pbent/Desktop/Autocliker/Autocliker/ui/MainWindow.cpp" "CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj" "gcc" "CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj.d"

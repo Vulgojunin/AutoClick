@@ -3,184 +3,57 @@
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
   <property name="geometry">
-   <rect>
-    <x>0</x>
-    <y>0</y>
-    <width>380</width>
-    <height>520</height>
-   </rect>
-  </property>
-  <property name="windowTitle">
-   <string>Bento AutoClicker PRO</string>
+   <rect><x>0</x><y>0</y><width>420</width><height>380</height></rect>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QVBoxLayout" name="verticalLayout_main">
-    <property name="spacing">
-     <number>15</number>
-    </property>
-    <property name="leftMargin">
-     <number>20</number>
-    </property>
-    <property name="topMargin">
-     <number>20</number>
-    </property>
-    <property name="rightMargin">
-     <number>20</number>
-    </property>
-    <property name="bottomMargin">
-     <number>20</number>
-    </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
     <item>
      <widget class="QGroupBox" name="groupBoxInterval">
-      <property name="title">
-       <string>⏱ Click Interval</string>
-      </property>
-      <layout class="QFormLayout" name="formLayoutInterval">
-       <item row="0" column="0">
-        <widget class="QLabel" name="labelInterval">
-         <property name="text">
-          <string>Intervalo (ms):</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="1">
-        <widget class="QSpinBox" name="spinBoxInterval">
-         <property name="maximum">
-          <number>99999</number>
-         </property>
-         <property name="value">
-          <number>100</number>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0">
-        <widget class="QLabel" name="labelJitter">
-         <property name="text">
-          <string>Jitter (ms):</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <widget class="QSpinBox" name="spinBoxJitter"></widget>
-       </item>
+      <property name="title"><string>Click Interval</string></property>
+      <layout class="QHBoxLayout" name="hLayout">
+       <item><widget class="QLabel" name="lH"><property name="text"><string>H:</string></property></widget></item>
+       <item><widget class="QSpinBox" name="spinBoxHours"/></item>
+       <item><widget class="QLabel" name="lM"><property name="text"><string>M:</string></property></widget></item>
+       <item><widget class="QSpinBox" name="spinBoxMins"/></item>
+       <item><widget class="QLabel" name="lS"><property name="text"><string>S:</string></property></widget></item>
+       <item><widget class="QSpinBox" name="spinBoxSecs"/></item>
+       <item><widget class="QLabel" name="lMs"><property name="text"><string>Ms:</string></property></widget></item>
+       <item><widget class="QSpinBox" name="spinBoxMs"><property name="maximum"><number>999</number></property></widget></item>
       </layout>
      </widget>
     </item>
     <item>
      <widget class="QGroupBox" name="groupBoxOptions">
-      <property name="title">
-       <string>🖱 Click Options</string>
-      </property>
-      <layout class="QFormLayout" name="formLayoutOptions">
-       <item row="0" column="0">
-        <widget class="QLabel" name="labelBotao">
-         <property name="text">
-          <string>Botão do Mouse:</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="1">
-        <widget class="QComboBox" name="comboBox"></widget>
-       </item>
-       <item row="1" column="0">
-        <widget class="QLabel" name="labelEstrategia">
-         <property name="text">
-          <string>Estratégia:</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <widget class="QComboBox" name="comboBoxStrategy"></widget>
+      <property name="title"><string>Click Options</string></property>
+      <layout class="QVBoxLayout" name="vLayoutOpt">
+       <item><widget class="QComboBox" name="comboBoxButton"/></item>
+       <item><widget class="QComboBox" name="comboBoxType"/></item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBoxRepeat">
+      <property name="title"><string>Click Repeat</string></property>
+      <layout class="QVBoxLayout" name="vLayoutRep">
+       <item><widget class="QRadioButton" name="radioInfinite"><property name="text"><string>Repeat until stopped</string></property></widget></item>
+       <item>
+        <layout class="QHBoxLayout" name="hLayoutRep">
+         <item><widget class="QRadioButton" name="radioRepeat"><property name="text"><string>Repeat</string></property></widget></item>
+         <item><widget class="QSpinBox" name="spinBoxTimes"><property name="maximum"><number>999999</number></property></widget></item>
+         <item><widget class="QLabel" name="lT"><property name="text"><string>times</string></property></widget></item>
+        </layout>
        </item>
       </layout>
      </widget>
     </item>
     <item>
-     <widget class="QGroupBox" name="groupBoxHotkeys">
-      <property name="title">
-       <string>⌨ Hotkeys &amp; Macro</string>
-      </property>
-      <layout class="QFormLayout" name="formLayoutHotkeys">
-       <item row="0" column="0">
-        <widget class="QLabel" name="labelStartKey">
-         <property name="text">
-          <string>Iniciar (Start):</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="1">
-        <widget class="QComboBox" name="comboBoxStartKey"></widget>
-       </item>
-       <item row="1" column="0">
-        <widget class="QLabel" name="labelStopKey">
-         <property name="text">
-          <string>Parar (Stop):</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <widget class="QComboBox" name="comboBoxStopKey"></widget>
-       </item>
-       <item row="2" column="0" colspan="2">
-        <widget class="QLabel" name="labelMacroInfo">
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-         <property name="text">
-          <string>Gravar Macro: Pressione F8</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </widget>
-    </item>
-    <item>
-     <layout class="QHBoxLayout" name="horizontalLayoutButtons">
-      <item>
-       <widget class="QPushButton" name="pushButtonStop">
-        <property name="text">
-         <string>Stop</string>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>0</width>
-          <height>40</height>
-         </size>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="pushButtonStart">
-        <property name="text">
-         <string>Start</string>
-        </property>
-        <property name="minimumSize">
-         <size>
-          <width>0</width>
-          <height>40</height>
-         </size>
-        </property>
-       </widget>
-      </item>
+     <layout class="QHBoxLayout" name="hLayoutBtns">
+      <item><widget class="QPushButton" name="pushButtonStop"><property name="text"><string>Stop</string></property></widget></item>
+      <item><widget class="QPushButton" name="pushButtonStart"><property name="text"><string>Start</string></property></widget></item>
      </layout>
-    </item>
-    <item>
-     <spacer name="verticalSpacer">
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-      <property name="sizeHint" stdset="0">
-       <size>
-        <width>20</width>
-        <height>40</height>
-       </size>
-      </property>
-     </spacer>
     </item>
    </layout>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
- <connections/>
 </ui>

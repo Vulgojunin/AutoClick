@@ -2,23 +2,22 @@
 #define FIXEDSTRATEGY_H
 
 #include "core/interfaces/IStrategy.h"
+#include <thread>
 #include <chrono>
 
 class FixedStrategy : public IStrategy {
-private:
-    std::chrono::milliseconds m_interval;
-
 public:
-    // Recebe o valor em milissegundos e converte para o tipo chrono
-    explicit FixedStrategy(int ms) : m_interval(ms) {}
+    explicit FixedStrategy(int intervalMs) : m_intervalMs(intervalMs) {}
 
-    std::chrono::milliseconds getNextDelay() override {
-        return m_interval;
+    // Implementa o wait esperando o tempo fixo
+    void wait() override {
+        if (m_intervalMs > 0) {
+            std::this_thread::sleep_for(std::chrono::milliseconds(m_intervalMs));
+        }
     }
 
-    void reset() override {
-        // Estratégia fixa não possui estado acumulado
-    }
+private:
+    int m_intervalMs;
 };
 
 #endif // FIXEDSTRATEGY_H

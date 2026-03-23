@@ -274,54 +274,6 @@ src/core/actions/ClickAction.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Autoclicker.dir\build.make CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.s
 .PHONY : src/core/actions/ClickAction.cpp.s
 
-src/core/actions/MacroRecorder.obj: src/core/actions/MacroRecorder.cpp.obj
-.PHONY : src/core/actions/MacroRecorder.obj
-
-# target to build an object file
-src/core/actions/MacroRecorder.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Autoclicker.dir\build.make CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.obj
-.PHONY : src/core/actions/MacroRecorder.cpp.obj
-
-src/core/actions/MacroRecorder.i: src/core/actions/MacroRecorder.cpp.i
-.PHONY : src/core/actions/MacroRecorder.i
-
-# target to preprocess a source file
-src/core/actions/MacroRecorder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Autoclicker.dir\build.make CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.i
-.PHONY : src/core/actions/MacroRecorder.cpp.i
-
-src/core/actions/MacroRecorder.s: src/core/actions/MacroRecorder.cpp.s
-.PHONY : src/core/actions/MacroRecorder.s
-
-# target to generate assembly for a file
-src/core/actions/MacroRecorder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Autoclicker.dir\build.make CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.s
-.PHONY : src/core/actions/MacroRecorder.cpp.s
-
-src/core/actions/PlayMacroAction.obj: src/core/actions/PlayMacroAction.cpp.obj
-.PHONY : src/core/actions/PlayMacroAction.obj
-
-# target to build an object file
-src/core/actions/PlayMacroAction.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Autoclicker.dir\build.make CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.obj
-.PHONY : src/core/actions/PlayMacroAction.cpp.obj
-
-src/core/actions/PlayMacroAction.i: src/core/actions/PlayMacroAction.cpp.i
-.PHONY : src/core/actions/PlayMacroAction.i
-
-# target to preprocess a source file
-src/core/actions/PlayMacroAction.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Autoclicker.dir\build.make CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.i
-.PHONY : src/core/actions/PlayMacroAction.cpp.i
-
-src/core/actions/PlayMacroAction.s: src/core/actions/PlayMacroAction.cpp.s
-.PHONY : src/core/actions/PlayMacroAction.s
-
-# target to generate assembly for a file
-src/core/actions/PlayMacroAction.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Autoclicker.dir\build.make CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.s
-.PHONY : src/core/actions/PlayMacroAction.cpp.s
-
 src/core/engine/Engine.obj: src/core/engine/Engine.cpp.obj
 .PHONY : src/core/engine/Engine.obj
 
@@ -420,12 +372,6 @@ help:
 	@echo ... src/core/actions/ClickAction.obj
 	@echo ... src/core/actions/ClickAction.i
 	@echo ... src/core/actions/ClickAction.s
-	@echo ... src/core/actions/MacroRecorder.obj
-	@echo ... src/core/actions/MacroRecorder.i
-	@echo ... src/core/actions/MacroRecorder.s
-	@echo ... src/core/actions/PlayMacroAction.obj
-	@echo ... src/core/actions/PlayMacroAction.i
-	@echo ... src/core/actions/PlayMacroAction.s
 	@echo ... src/core/engine/Engine.obj
 	@echo ... src/core/engine/Engine.i
 	@echo ... src/core/engine/Engine.s

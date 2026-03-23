@@ -45,13 +45,9 @@ target_sources(Autoclicker PRIVATE
     src/core/registry/ActionRegistry.h
     src/core/registry/StrategyRegistry.h
     
-    # Actions (Cliques e Macros)
+    # Actions (Apenas Cliques - Macro Removido)
     src/core/actions/ClickAction.h
     src/core/actions/ClickAction.cpp
-    src/core/actions/MacroRecorder.h      # ADICIONADO
-    src/core/actions/MacroRecorder.cpp    # ADICIONADO
-    src/core/actions/PlayMacroAction.h    # ADICIONADO
-    src/core/actions/PlayMacroAction.cpp  # ADICIONADO
     
     # Strategies
     src/core/strategies/FixedStrategy.h

@@ -52,7 +52,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 71,
+				"line" : 67,
 				"parent" : 0
 			},
 			{
@@ -186,7 +186,7 @@
 			{
 				"command" : 8,
 				"file" : 0,
-				"line" : 65,
+				"line" : 61,
 				"parent" : 0
 			},
 			{
@@ -324,9 +324,7 @@
 				10,
 				12,
 				14,
-				22,
-				24,
-				26
+				22
 			]
 		}
 	],
@@ -453,9 +451,7 @@
 				10,
 				12,
 				14,
-				22,
-				24,
-				26
+				22
 			]
 		},
 		{
@@ -477,11 +473,9 @@
 				20,
 				21,
 				23,
+				24,
 				25,
-				27,
-				28,
-				29,
-				30
+				26
 			]
 		},
 		{
@@ -489,14 +483,14 @@
 			"sourceIndexes" : 
 			[
 				4,
-				31
+				27
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				32
+				28
 			]
 		}
 	],
@@ -624,28 +618,6 @@
 			"backtrace" : 28,
 			"compileGroupIndex" : 0,
 			"path" : "src/core/actions/ClickAction.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 28,
-			"path" : "src/core/actions/MacroRecorder.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 28,
-			"compileGroupIndex" : 0,
-			"path" : "src/core/actions/MacroRecorder.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 28,
-			"path" : "src/core/actions/PlayMacroAction.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 28,
-			"compileGroupIndex" : 0,
-			"path" : "src/core/actions/PlayMacroAction.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

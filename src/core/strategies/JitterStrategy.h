@@ -2,39 +2,31 @@
 #define JITTERSTRATEGY_H
 
 #include "core/interfaces/IStrategy.h"
+#include <thread>
 #include <chrono>
 #include <random>
 
 class JitterStrategy : public IStrategy {
-private:
-    std::chrono::milliseconds m_baseInterval;
-    int m_maxJitterMs;
-    
-    // Gerador de números aleatórios moderno do C++
-    std::mt19937 m_rng;
-
 public:
-    JitterStrategy(int baseMs, int jitterMs) 
-        : m_baseInterval(baseMs), m_maxJitterMs(jitterMs) 
-    {
-        // Inicializa o gerador com uma semente baseada no tempo real
-        std::random_device rd;
-        m_rng.seed(rd());
+    JitterStrategy(int intervalMs, int jitterMs) 
+        : m_intervalMs(intervalMs), m_jitterMs(jitterMs) {}
+
+    // Implementa o wait com tempo aleatório (Jitter)
+    void wait() override {
+        std::default_random_engine generator(std::random_device{}());
+        std::uniform_int_distribution<int> distribution(-m_jitterMs, m_jitterMs);
+        
+        int offset = distribution(generator);
+        int finalWait = m_intervalMs + offset;
+
+        if (finalWait < 1) finalWait = 1; // Proteção para não esperar tempo negativo
+        
+        std::this_thread::sleep_for(std::chrono::milliseconds(finalWait));
     }
 
-    std::chrono::milliseconds getNextDelay() override {
-        if (m_maxJitterMs <= 0) return m_baseInterval;
-
-        // Cria uma distribuição entre -jitter e +jitter
-        std::uniform_int_distribution<int> dist(-m_maxJitterMs, m_maxJitterMs);
-        int variation = dist(m_rng);
-
-        return m_baseInterval + std::chrono::milliseconds(variation);
-    }
-
-    void reset() override {
-        // Reinicia a semente se necessário (opcional)
-    }
+private:
+    int m_intervalMs;
+    int m_jitterMs;
 };
 
 #endif // JITTERSTRATEGY_H
