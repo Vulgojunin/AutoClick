@@ -1,16 +1,16 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/Autoclicker_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/pbent/Desktop/Autocliker",
+	"BUILD_DIR" : "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/Autoclicker_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/pbent/Desktop/Autocliker/Autocliker",
 	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/Users/pbent/Desktop/Autocliker/CMakeLists.txt",
+		"C:/Users/pbent/Desktop/Autocliker/Autocliker/CMakeLists.txt",
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake",
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeSystem.cmake.in",
-		"C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/4.3.0/CMakeSystem.cmake",
+		"C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/4.3.0/CMakeSystem.cmake",
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeMinGWFindMake.cmake",
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeSystemSpecificInitialize.cmake",
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-Initialize.cmake",
@@ -66,7 +66,7 @@
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake",
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake",
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompiler.cmake.in",
-		"C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/4.3.0/CMakeCXXCompiler.cmake",
+		"C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/4.3.0/CMakeCXXCompiler.cmake",
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeGenericSystem.cmake",
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeInitializeConfigs.cmake",
@@ -81,7 +81,7 @@
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-GNU.cmake",
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake",
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeRCCompiler.cmake.in",
-		"C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/4.3.0/CMakeRCCompiler.cmake",
+		"C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/4.3.0/CMakeRCCompiler.cmake",
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeRCInformation.cmake",
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-windres.cmake",
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestRCCompiler.cmake",
@@ -98,7 +98,7 @@
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerSupport.cmake",
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/FeatureTesting.cmake",
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompiler.cmake.in",
-		"C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/4.3.0/CMakeCXXCompiler.cmake",
+		"C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/4.3.0/CMakeCXXCompiler.cmake",
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCXXLinkerInformation.cmake",
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake",
@@ -335,118 +335,130 @@
 		"C:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake",
 		"C:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/Users/pbent/Desktop/Autocliker",
+	"CMAKE_SOURCE_DIR" : "C:/Users/pbent/Desktop/Autocliker/Autocliker",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/Autoclicker_autogen/deps",
+	"DEP_FILE" : "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/Autoclicker_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "Autoclicker_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/pbent/Desktop/Autocliker/src/application/use_cases/AppCommand.h",
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/application/use_cases/AppCommand.h",
 			"MU",
 			"SJ2DDIYN3B/moc_AppCommand.cpp",
 			null
 		],
 		[
-			"C:/Users/pbent/Desktop/Autocliker/src/application/use_cases/AppTypes.h",
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/application/use_cases/AppTypes.h",
 			"MU",
 			"SJ2DDIYN3B/moc_AppTypes.cpp",
 			null
 		],
 		[
-			"C:/Users/pbent/Desktop/Autocliker/src/application/use_cases/StartClickingUseCase.h",
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/application/use_cases/StartClickingUseCase.h",
 			"MU",
 			"SJ2DDIYN3B/moc_StartClickingUseCase.cpp",
 			null
 		],
 		[
-			"C:/Users/pbent/Desktop/Autocliker/src/application/use_cases/StopClickingUseCase.h",
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/application/use_cases/StopClickingUseCase.h",
 			"MU",
 			"SJ2DDIYN3B/moc_StopClickingUseCase.cpp",
 			null
 		],
 		[
-			"C:/Users/pbent/Desktop/Autocliker/src/controller/Controller.h",
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/controller/Controller.h",
 			"MU",
 			"KECQXMYYOW/moc_Controller.cpp",
 			null
 		],
 		[
-			"C:/Users/pbent/Desktop/Autocliker/src/core/CoreTypes.h",
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/CoreTypes.h",
 			"MU",
 			"PRMOGMWJPH/moc_CoreTypes.cpp",
 			null
 		],
 		[
-			"C:/Users/pbent/Desktop/Autocliker/src/core/actions/ClickAction.h",
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/actions/ClickAction.h",
 			"MU",
 			"YYR26FCKAZ/moc_ClickAction.cpp",
 			null
 		],
 		[
-			"C:/Users/pbent/Desktop/Autocliker/src/core/engine/Engine.h",
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/actions/MacroRecorder.h",
+			"MU",
+			"YYR26FCKAZ/moc_MacroRecorder.cpp",
+			null
+		],
+		[
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/actions/PlayMacroAction.h",
+			"MU",
+			"YYR26FCKAZ/moc_PlayMacroAction.cpp",
+			null
+		],
+		[
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/engine/Engine.h",
 			"MU",
 			"YU663LJOMB/moc_Engine.cpp",
 			null
 		],
 		[
-			"C:/Users/pbent/Desktop/Autocliker/src/core/engine/ExecutionNotifier.h",
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/engine/ExecutionNotifier.h",
 			"MU",
 			"YU663LJOMB/moc_ExecutionNotifier.cpp",
 			null
 		],
 		[
-			"C:/Users/pbent/Desktop/Autocliker/src/core/interfaces/IAction.h",
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/interfaces/IAction.h",
 			"MU",
 			"WUSWO6UNNN/moc_IAction.cpp",
 			null
 		],
 		[
-			"C:/Users/pbent/Desktop/Autocliker/src/core/interfaces/IControllerObserver.h",
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/interfaces/IControllerObserver.h",
 			"MU",
 			"WUSWO6UNNN/moc_IControllerObserver.cpp",
 			null
 		],
 		[
-			"C:/Users/pbent/Desktop/Autocliker/src/core/interfaces/IStrategy.h",
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/interfaces/IStrategy.h",
 			"MU",
 			"WUSWO6UNNN/moc_IStrategy.cpp",
 			null
 		],
 		[
-			"C:/Users/pbent/Desktop/Autocliker/src/core/registry/ActionRegistry.h",
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/registry/ActionRegistry.h",
 			"MU",
 			"RYSHBQAYIM/moc_ActionRegistry.cpp",
 			null
 		],
 		[
-			"C:/Users/pbent/Desktop/Autocliker/src/core/registry/StrategyRegistry.h",
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/registry/StrategyRegistry.h",
 			"MU",
 			"RYSHBQAYIM/moc_StrategyRegistry.cpp",
 			null
 		],
 		[
-			"C:/Users/pbent/Desktop/Autocliker/src/core/strategies/FixedStrategy.h",
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/strategies/FixedStrategy.h",
 			"MU",
 			"BK6BJYCC5O/moc_FixedStrategy.cpp",
 			null
 		],
 		[
-			"C:/Users/pbent/Desktop/Autocliker/src/core/strategies/JitterStrategy.h",
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/strategies/JitterStrategy.h",
 			"MU",
 			"BK6BJYCC5O/moc_JitterStrategy.cpp",
 			null
 		],
 		[
-			"C:/Users/pbent/Desktop/Autocliker/ui/MainWindow.h",
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/ui/MainWindow.h",
 			"MU",
 			"UYX5XTB5RZ/moc_MainWindow.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/Autoclicker_autogen/include",
-	"MOC_COMPILATION_FILE" : "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/Autoclicker_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/Autoclicker_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/Autoclicker_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -469,9 +481,9 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"C:/Users/pbent/Desktop/Autocliker",
-		"C:/Users/pbent/Desktop/Autocliker/src",
-		"C:/Users/pbent/Desktop/Autocliker/ui",
+		"C:/Users/pbent/Desktop/Autocliker/Autocliker",
+		"C:/Users/pbent/Desktop/Autocliker/Autocliker/src",
+		"C:/Users/pbent/Desktop/Autocliker/Autocliker/ui",
 		"C:/Qt/6.10.2/mingw_64/include/QtWidgets",
 		"C:/Qt/6.10.2/mingw_64/include",
 		"C:/Qt/6.10.2/mingw_64/include/QtCore",
@@ -504,46 +516,64 @@
 		"-E",
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/Autoclicker_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/Autoclicker_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 8,
-	"PARSE_CACHE_FILE" : "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/Autoclicker_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/Autoclicker_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/6.10.2/mingw_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/Qt/6.10.2/mingw_64/bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 10,
-	"SETTINGS_FILE" : "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/Autoclicker_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/Autoclicker_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/pbent/Desktop/Autocliker/src/application/use_cases/StartClickingUseCase.cpp",
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/application/use_cases/StartClickingUseCase.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/pbent/Desktop/Autocliker/src/application/use_cases/StopClickingUseCase.cpp",
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/application/use_cases/StopClickingUseCase.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/pbent/Desktop/Autocliker/src/controller/Controller.cpp",
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/controller/Controller.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/pbent/Desktop/Autocliker/src/core/actions/ClickAction.cpp",
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/actions/ClickAction.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/pbent/Desktop/Autocliker/src/core/engine/Engine.cpp",
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/actions/MacroRecorder.cpp",
 			"MU",
 			null
 		],
-		[ "C:/Users/pbent/Desktop/Autocliker/src/main.cpp", "MU", null ],
-		[ "C:/Users/pbent/Desktop/Autocliker/ui/MainWindow.cpp", "MU", null ]
+		[
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/actions/PlayMacroAction.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/engine/Engine.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/src/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/pbent/Desktop/Autocliker/Autocliker/ui/MainWindow.cpp",
+			"MU",
+			null
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

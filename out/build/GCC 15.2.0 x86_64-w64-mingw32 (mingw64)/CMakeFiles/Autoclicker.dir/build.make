@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\pbent\Desktop\Autocliker
+CMAKE_SOURCE_DIR = C:\Users\pbent\Desktop\Autocliker\Autocliker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+CMAKE_BINARY_DIR = "C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Autoclicker.dir/depend.make
@@ -71,9 +71,9 @@ include CMakeFiles/Autoclicker.dir/flags.make
 Autoclicker_autogen/timestamp: C:/Qt/6.10.2/mingw_64/bin/moc.exe
 Autoclicker_autogen/timestamp: C:/Qt/6.10.2/mingw_64/bin/uic.exe
 Autoclicker_autogen/timestamp: CMakeFiles/Autoclicker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Autoclicker"
-	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/Autoclicker_autogen.dir/AutogenInfo.json" Debug
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/Autoclicker_autogen/timestamp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Autoclicker"
+	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/Autoclicker_autogen.dir/AutogenInfo.json" Debug
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/Autoclicker_autogen/timestamp"
 
 CMakeFiles/Autoclicker.dir/codegen:
 .PHONY : CMakeFiles/Autoclicker.dir/codegen
@@ -82,121 +82,151 @@ CMakeFiles/Autoclicker.dir/Autoclicker_autogen/mocs_compilation.cpp.obj: CMakeFi
 CMakeFiles/Autoclicker.dir/Autoclicker_autogen/mocs_compilation.cpp.obj: CMakeFiles/Autoclicker.dir/includes_CXX.rsp
 CMakeFiles/Autoclicker.dir/Autoclicker_autogen/mocs_compilation.cpp.obj: Autoclicker_autogen/mocs_compilation.cpp
 CMakeFiles/Autoclicker.dir/Autoclicker_autogen/mocs_compilation.cpp.obj: CMakeFiles/Autoclicker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Autoclicker.dir/Autoclicker_autogen/mocs_compilation.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/Autoclicker_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\Autoclicker.dir\Autoclicker_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\Autoclicker.dir\Autoclicker_autogen\mocs_compilation.cpp.obj -c "C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\Autoclicker_autogen\mocs_compilation.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Autoclicker.dir/Autoclicker_autogen/mocs_compilation.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/Autoclicker_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\Autoclicker.dir\Autoclicker_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\Autoclicker.dir\Autoclicker_autogen\mocs_compilation.cpp.obj -c "C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\Autoclicker_autogen\mocs_compilation.cpp"
 
 CMakeFiles/Autoclicker.dir/Autoclicker_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Autoclicker.dir/Autoclicker_autogen/mocs_compilation.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\Autoclicker_autogen\mocs_compilation.cpp" > CMakeFiles\Autoclicker.dir\Autoclicker_autogen\mocs_compilation.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\Autoclicker_autogen\mocs_compilation.cpp" > CMakeFiles\Autoclicker.dir\Autoclicker_autogen\mocs_compilation.cpp.i
 
 CMakeFiles/Autoclicker.dir/Autoclicker_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Autoclicker.dir/Autoclicker_autogen/mocs_compilation.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\Autoclicker_autogen\mocs_compilation.cpp" -o CMakeFiles\Autoclicker.dir\Autoclicker_autogen\mocs_compilation.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\Autoclicker_autogen\mocs_compilation.cpp" -o CMakeFiles\Autoclicker.dir\Autoclicker_autogen\mocs_compilation.cpp.s
 
 CMakeFiles/Autoclicker.dir/src/main.cpp.obj: CMakeFiles/Autoclicker.dir/flags.make
 CMakeFiles/Autoclicker.dir/src/main.cpp.obj: CMakeFiles/Autoclicker.dir/includes_CXX.rsp
-CMakeFiles/Autoclicker.dir/src/main.cpp.obj: C:/Users/pbent/Desktop/Autocliker/src/main.cpp
+CMakeFiles/Autoclicker.dir/src/main.cpp.obj: C:/Users/pbent/Desktop/Autocliker/Autocliker/src/main.cpp
 CMakeFiles/Autoclicker.dir/src/main.cpp.obj: CMakeFiles/Autoclicker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Autoclicker.dir/src/main.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/src/main.cpp.obj -MF CMakeFiles\Autoclicker.dir\src\main.cpp.obj.d -o CMakeFiles\Autoclicker.dir\src\main.cpp.obj -c C:\Users\pbent\Desktop\Autocliker\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Autoclicker.dir/src/main.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/src/main.cpp.obj -MF CMakeFiles\Autoclicker.dir\src\main.cpp.obj.d -o CMakeFiles\Autoclicker.dir\src\main.cpp.obj -c C:\Users\pbent\Desktop\Autocliker\Autocliker\src\main.cpp
 
 CMakeFiles/Autoclicker.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Autoclicker.dir/src/main.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pbent\Desktop\Autocliker\src\main.cpp > CMakeFiles\Autoclicker.dir\src\main.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pbent\Desktop\Autocliker\Autocliker\src\main.cpp > CMakeFiles\Autoclicker.dir\src\main.cpp.i
 
 CMakeFiles/Autoclicker.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Autoclicker.dir/src/main.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pbent\Desktop\Autocliker\src\main.cpp -o CMakeFiles\Autoclicker.dir\src\main.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pbent\Desktop\Autocliker\Autocliker\src\main.cpp -o CMakeFiles\Autoclicker.dir\src\main.cpp.s
 
 CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj: CMakeFiles/Autoclicker.dir/flags.make
 CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj: CMakeFiles/Autoclicker.dir/includes_CXX.rsp
-CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj: C:/Users/pbent/Desktop/Autocliker/ui/MainWindow.cpp
+CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj: C:/Users/pbent/Desktop/Autocliker/Autocliker/ui/MainWindow.cpp
 CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj: CMakeFiles/Autoclicker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj -MF CMakeFiles\Autoclicker.dir\ui\MainWindow.cpp.obj.d -o CMakeFiles\Autoclicker.dir\ui\MainWindow.cpp.obj -c C:\Users\pbent\Desktop\Autocliker\ui\MainWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj -MF CMakeFiles\Autoclicker.dir\ui\MainWindow.cpp.obj.d -o CMakeFiles\Autoclicker.dir\ui\MainWindow.cpp.obj -c C:\Users\pbent\Desktop\Autocliker\Autocliker\ui\MainWindow.cpp
 
 CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pbent\Desktop\Autocliker\ui\MainWindow.cpp > CMakeFiles\Autoclicker.dir\ui\MainWindow.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pbent\Desktop\Autocliker\Autocliker\ui\MainWindow.cpp > CMakeFiles\Autoclicker.dir\ui\MainWindow.cpp.i
 
 CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pbent\Desktop\Autocliker\ui\MainWindow.cpp -o CMakeFiles\Autoclicker.dir\ui\MainWindow.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pbent\Desktop\Autocliker\Autocliker\ui\MainWindow.cpp -o CMakeFiles\Autoclicker.dir\ui\MainWindow.cpp.s
 
 CMakeFiles/Autoclicker.dir/src/controller/Controller.cpp.obj: CMakeFiles/Autoclicker.dir/flags.make
 CMakeFiles/Autoclicker.dir/src/controller/Controller.cpp.obj: CMakeFiles/Autoclicker.dir/includes_CXX.rsp
-CMakeFiles/Autoclicker.dir/src/controller/Controller.cpp.obj: C:/Users/pbent/Desktop/Autocliker/src/controller/Controller.cpp
+CMakeFiles/Autoclicker.dir/src/controller/Controller.cpp.obj: C:/Users/pbent/Desktop/Autocliker/Autocliker/src/controller/Controller.cpp
 CMakeFiles/Autoclicker.dir/src/controller/Controller.cpp.obj: CMakeFiles/Autoclicker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Autoclicker.dir/src/controller/Controller.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/src/controller/Controller.cpp.obj -MF CMakeFiles\Autoclicker.dir\src\controller\Controller.cpp.obj.d -o CMakeFiles\Autoclicker.dir\src\controller\Controller.cpp.obj -c C:\Users\pbent\Desktop\Autocliker\src\controller\Controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Autoclicker.dir/src/controller/Controller.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/src/controller/Controller.cpp.obj -MF CMakeFiles\Autoclicker.dir\src\controller\Controller.cpp.obj.d -o CMakeFiles\Autoclicker.dir\src\controller\Controller.cpp.obj -c C:\Users\pbent\Desktop\Autocliker\Autocliker\src\controller\Controller.cpp
 
 CMakeFiles/Autoclicker.dir/src/controller/Controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Autoclicker.dir/src/controller/Controller.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pbent\Desktop\Autocliker\src\controller\Controller.cpp > CMakeFiles\Autoclicker.dir\src\controller\Controller.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pbent\Desktop\Autocliker\Autocliker\src\controller\Controller.cpp > CMakeFiles\Autoclicker.dir\src\controller\Controller.cpp.i
 
 CMakeFiles/Autoclicker.dir/src/controller/Controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Autoclicker.dir/src/controller/Controller.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pbent\Desktop\Autocliker\src\controller\Controller.cpp -o CMakeFiles\Autoclicker.dir\src\controller\Controller.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pbent\Desktop\Autocliker\Autocliker\src\controller\Controller.cpp -o CMakeFiles\Autoclicker.dir\src\controller\Controller.cpp.s
 
 CMakeFiles/Autoclicker.dir/src/application/use_cases/StartClickingUseCase.cpp.obj: CMakeFiles/Autoclicker.dir/flags.make
 CMakeFiles/Autoclicker.dir/src/application/use_cases/StartClickingUseCase.cpp.obj: CMakeFiles/Autoclicker.dir/includes_CXX.rsp
-CMakeFiles/Autoclicker.dir/src/application/use_cases/StartClickingUseCase.cpp.obj: C:/Users/pbent/Desktop/Autocliker/src/application/use_cases/StartClickingUseCase.cpp
+CMakeFiles/Autoclicker.dir/src/application/use_cases/StartClickingUseCase.cpp.obj: C:/Users/pbent/Desktop/Autocliker/Autocliker/src/application/use_cases/StartClickingUseCase.cpp
 CMakeFiles/Autoclicker.dir/src/application/use_cases/StartClickingUseCase.cpp.obj: CMakeFiles/Autoclicker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Autoclicker.dir/src/application/use_cases/StartClickingUseCase.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/src/application/use_cases/StartClickingUseCase.cpp.obj -MF CMakeFiles\Autoclicker.dir\src\application\use_cases\StartClickingUseCase.cpp.obj.d -o CMakeFiles\Autoclicker.dir\src\application\use_cases\StartClickingUseCase.cpp.obj -c C:\Users\pbent\Desktop\Autocliker\src\application\use_cases\StartClickingUseCase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Autoclicker.dir/src/application/use_cases/StartClickingUseCase.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/src/application/use_cases/StartClickingUseCase.cpp.obj -MF CMakeFiles\Autoclicker.dir\src\application\use_cases\StartClickingUseCase.cpp.obj.d -o CMakeFiles\Autoclicker.dir\src\application\use_cases\StartClickingUseCase.cpp.obj -c C:\Users\pbent\Desktop\Autocliker\Autocliker\src\application\use_cases\StartClickingUseCase.cpp
 
 CMakeFiles/Autoclicker.dir/src/application/use_cases/StartClickingUseCase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Autoclicker.dir/src/application/use_cases/StartClickingUseCase.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pbent\Desktop\Autocliker\src\application\use_cases\StartClickingUseCase.cpp > CMakeFiles\Autoclicker.dir\src\application\use_cases\StartClickingUseCase.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pbent\Desktop\Autocliker\Autocliker\src\application\use_cases\StartClickingUseCase.cpp > CMakeFiles\Autoclicker.dir\src\application\use_cases\StartClickingUseCase.cpp.i
 
 CMakeFiles/Autoclicker.dir/src/application/use_cases/StartClickingUseCase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Autoclicker.dir/src/application/use_cases/StartClickingUseCase.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pbent\Desktop\Autocliker\src\application\use_cases\StartClickingUseCase.cpp -o CMakeFiles\Autoclicker.dir\src\application\use_cases\StartClickingUseCase.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pbent\Desktop\Autocliker\Autocliker\src\application\use_cases\StartClickingUseCase.cpp -o CMakeFiles\Autoclicker.dir\src\application\use_cases\StartClickingUseCase.cpp.s
 
 CMakeFiles/Autoclicker.dir/src/application/use_cases/StopClickingUseCase.cpp.obj: CMakeFiles/Autoclicker.dir/flags.make
 CMakeFiles/Autoclicker.dir/src/application/use_cases/StopClickingUseCase.cpp.obj: CMakeFiles/Autoclicker.dir/includes_CXX.rsp
-CMakeFiles/Autoclicker.dir/src/application/use_cases/StopClickingUseCase.cpp.obj: C:/Users/pbent/Desktop/Autocliker/src/application/use_cases/StopClickingUseCase.cpp
+CMakeFiles/Autoclicker.dir/src/application/use_cases/StopClickingUseCase.cpp.obj: C:/Users/pbent/Desktop/Autocliker/Autocliker/src/application/use_cases/StopClickingUseCase.cpp
 CMakeFiles/Autoclicker.dir/src/application/use_cases/StopClickingUseCase.cpp.obj: CMakeFiles/Autoclicker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Autoclicker.dir/src/application/use_cases/StopClickingUseCase.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/src/application/use_cases/StopClickingUseCase.cpp.obj -MF CMakeFiles\Autoclicker.dir\src\application\use_cases\StopClickingUseCase.cpp.obj.d -o CMakeFiles\Autoclicker.dir\src\application\use_cases\StopClickingUseCase.cpp.obj -c C:\Users\pbent\Desktop\Autocliker\src\application\use_cases\StopClickingUseCase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Autoclicker.dir/src/application/use_cases/StopClickingUseCase.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/src/application/use_cases/StopClickingUseCase.cpp.obj -MF CMakeFiles\Autoclicker.dir\src\application\use_cases\StopClickingUseCase.cpp.obj.d -o CMakeFiles\Autoclicker.dir\src\application\use_cases\StopClickingUseCase.cpp.obj -c C:\Users\pbent\Desktop\Autocliker\Autocliker\src\application\use_cases\StopClickingUseCase.cpp
 
 CMakeFiles/Autoclicker.dir/src/application/use_cases/StopClickingUseCase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Autoclicker.dir/src/application/use_cases/StopClickingUseCase.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pbent\Desktop\Autocliker\src\application\use_cases\StopClickingUseCase.cpp > CMakeFiles\Autoclicker.dir\src\application\use_cases\StopClickingUseCase.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pbent\Desktop\Autocliker\Autocliker\src\application\use_cases\StopClickingUseCase.cpp > CMakeFiles\Autoclicker.dir\src\application\use_cases\StopClickingUseCase.cpp.i
 
 CMakeFiles/Autoclicker.dir/src/application/use_cases/StopClickingUseCase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Autoclicker.dir/src/application/use_cases/StopClickingUseCase.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pbent\Desktop\Autocliker\src\application\use_cases\StopClickingUseCase.cpp -o CMakeFiles\Autoclicker.dir\src\application\use_cases\StopClickingUseCase.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pbent\Desktop\Autocliker\Autocliker\src\application\use_cases\StopClickingUseCase.cpp -o CMakeFiles\Autoclicker.dir\src\application\use_cases\StopClickingUseCase.cpp.s
 
 CMakeFiles/Autoclicker.dir/src/core/engine/Engine.cpp.obj: CMakeFiles/Autoclicker.dir/flags.make
 CMakeFiles/Autoclicker.dir/src/core/engine/Engine.cpp.obj: CMakeFiles/Autoclicker.dir/includes_CXX.rsp
-CMakeFiles/Autoclicker.dir/src/core/engine/Engine.cpp.obj: C:/Users/pbent/Desktop/Autocliker/src/core/engine/Engine.cpp
+CMakeFiles/Autoclicker.dir/src/core/engine/Engine.cpp.obj: C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/engine/Engine.cpp
 CMakeFiles/Autoclicker.dir/src/core/engine/Engine.cpp.obj: CMakeFiles/Autoclicker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Autoclicker.dir/src/core/engine/Engine.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/src/core/engine/Engine.cpp.obj -MF CMakeFiles\Autoclicker.dir\src\core\engine\Engine.cpp.obj.d -o CMakeFiles\Autoclicker.dir\src\core\engine\Engine.cpp.obj -c C:\Users\pbent\Desktop\Autocliker\src\core\engine\Engine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Autoclicker.dir/src/core/engine/Engine.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/src/core/engine/Engine.cpp.obj -MF CMakeFiles\Autoclicker.dir\src\core\engine\Engine.cpp.obj.d -o CMakeFiles\Autoclicker.dir\src\core\engine\Engine.cpp.obj -c C:\Users\pbent\Desktop\Autocliker\Autocliker\src\core\engine\Engine.cpp
 
 CMakeFiles/Autoclicker.dir/src/core/engine/Engine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Autoclicker.dir/src/core/engine/Engine.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pbent\Desktop\Autocliker\src\core\engine\Engine.cpp > CMakeFiles\Autoclicker.dir\src\core\engine\Engine.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pbent\Desktop\Autocliker\Autocliker\src\core\engine\Engine.cpp > CMakeFiles\Autoclicker.dir\src\core\engine\Engine.cpp.i
 
 CMakeFiles/Autoclicker.dir/src/core/engine/Engine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Autoclicker.dir/src/core/engine/Engine.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pbent\Desktop\Autocliker\src\core\engine\Engine.cpp -o CMakeFiles\Autoclicker.dir\src\core\engine\Engine.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pbent\Desktop\Autocliker\Autocliker\src\core\engine\Engine.cpp -o CMakeFiles\Autoclicker.dir\src\core\engine\Engine.cpp.s
 
 CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.obj: CMakeFiles/Autoclicker.dir/flags.make
 CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.obj: CMakeFiles/Autoclicker.dir/includes_CXX.rsp
-CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.obj: C:/Users/pbent/Desktop/Autocliker/src/core/actions/ClickAction.cpp
+CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.obj: C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/actions/ClickAction.cpp
 CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.obj: CMakeFiles/Autoclicker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.obj -MF CMakeFiles\Autoclicker.dir\src\core\actions\ClickAction.cpp.obj.d -o CMakeFiles\Autoclicker.dir\src\core\actions\ClickAction.cpp.obj -c C:\Users\pbent\Desktop\Autocliker\src\core\actions\ClickAction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.obj -MF CMakeFiles\Autoclicker.dir\src\core\actions\ClickAction.cpp.obj.d -o CMakeFiles\Autoclicker.dir\src\core\actions\ClickAction.cpp.obj -c C:\Users\pbent\Desktop\Autocliker\Autocliker\src\core\actions\ClickAction.cpp
 
 CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pbent\Desktop\Autocliker\src\core\actions\ClickAction.cpp > CMakeFiles\Autoclicker.dir\src\core\actions\ClickAction.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pbent\Desktop\Autocliker\Autocliker\src\core\actions\ClickAction.cpp > CMakeFiles\Autoclicker.dir\src\core\actions\ClickAction.cpp.i
 
 CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pbent\Desktop\Autocliker\src\core\actions\ClickAction.cpp -o CMakeFiles\Autoclicker.dir\src\core\actions\ClickAction.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pbent\Desktop\Autocliker\Autocliker\src\core\actions\ClickAction.cpp -o CMakeFiles\Autoclicker.dir\src\core\actions\ClickAction.cpp.s
+
+CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.obj: CMakeFiles/Autoclicker.dir/flags.make
+CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.obj: CMakeFiles/Autoclicker.dir/includes_CXX.rsp
+CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.obj: C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/actions/MacroRecorder.cpp
+CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.obj: CMakeFiles/Autoclicker.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.obj -MF CMakeFiles\Autoclicker.dir\src\core\actions\MacroRecorder.cpp.obj.d -o CMakeFiles\Autoclicker.dir\src\core\actions\MacroRecorder.cpp.obj -c C:\Users\pbent\Desktop\Autocliker\Autocliker\src\core\actions\MacroRecorder.cpp
+
+CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pbent\Desktop\Autocliker\Autocliker\src\core\actions\MacroRecorder.cpp > CMakeFiles\Autoclicker.dir\src\core\actions\MacroRecorder.cpp.i
+
+CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pbent\Desktop\Autocliker\Autocliker\src\core\actions\MacroRecorder.cpp -o CMakeFiles\Autoclicker.dir\src\core\actions\MacroRecorder.cpp.s
+
+CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.obj: CMakeFiles/Autoclicker.dir/flags.make
+CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.obj: CMakeFiles/Autoclicker.dir/includes_CXX.rsp
+CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.obj: C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/actions/PlayMacroAction.cpp
+CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.obj: CMakeFiles/Autoclicker.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.obj -MF CMakeFiles\Autoclicker.dir\src\core\actions\PlayMacroAction.cpp.obj.d -o CMakeFiles\Autoclicker.dir\src\core\actions\PlayMacroAction.cpp.obj -c C:\Users\pbent\Desktop\Autocliker\Autocliker\src\core\actions\PlayMacroAction.cpp
+
+CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\pbent\Desktop\Autocliker\Autocliker\src\core\actions\PlayMacroAction.cpp > CMakeFiles\Autoclicker.dir\src\core\actions\PlayMacroAction.cpp.i
+
+CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\pbent\Desktop\Autocliker\Autocliker\src\core\actions\PlayMacroAction.cpp -o CMakeFiles\Autoclicker.dir\src\core\actions\PlayMacroAction.cpp.s
 
 # Object files for target Autoclicker
 Autoclicker_OBJECTS = \
@@ -207,7 +237,9 @@ Autoclicker_OBJECTS = \
 "CMakeFiles/Autoclicker.dir/src/application/use_cases/StartClickingUseCase.cpp.obj" \
 "CMakeFiles/Autoclicker.dir/src/application/use_cases/StopClickingUseCase.cpp.obj" \
 "CMakeFiles/Autoclicker.dir/src/core/engine/Engine.cpp.obj" \
-"CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.obj"
+"CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.obj" \
+"CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.obj" \
+"CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.obj"
 
 # External object files for target Autoclicker
 Autoclicker_EXTERNAL_OBJECTS =
@@ -220,6 +252,8 @@ Autoclicker.exe: CMakeFiles/Autoclicker.dir/src/application/use_cases/StartClick
 Autoclicker.exe: CMakeFiles/Autoclicker.dir/src/application/use_cases/StopClickingUseCase.cpp.obj
 Autoclicker.exe: CMakeFiles/Autoclicker.dir/src/core/engine/Engine.cpp.obj
 Autoclicker.exe: CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.obj
+Autoclicker.exe: CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.obj
+Autoclicker.exe: CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.obj
 Autoclicker.exe: CMakeFiles/Autoclicker.dir/build.make
 Autoclicker.exe: C:/Qt/6.10.2/mingw_64/lib/libQt6Widgets.a
 Autoclicker.exe: C:/Qt/6.10.2/mingw_64/lib/libQt6Gui.a
@@ -227,7 +261,7 @@ Autoclicker.exe: C:/Qt/6.10.2/mingw_64/lib/libQt6Core.a
 Autoclicker.exe: CMakeFiles/Autoclicker.dir/linkLibs.rsp
 Autoclicker.exe: CMakeFiles/Autoclicker.dir/objects1.rsp
 Autoclicker.exe: CMakeFiles/Autoclicker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Autoclicker.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Autoclicker.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Autoclicker.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -239,6 +273,6 @@ CMakeFiles/Autoclicker.dir/clean:
 .PHONY : CMakeFiles/Autoclicker.dir/clean
 
 CMakeFiles/Autoclicker.dir/depend: Autoclicker_autogen/timestamp
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\pbent\Desktop\Autocliker C:\Users\pbent\Desktop\Autocliker "C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)" "C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)" "C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles\Autoclicker.dir\DependInfo.cmake" "--color=$(COLOR)" Autoclicker
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\pbent\Desktop\Autocliker\Autocliker C:\Users\pbent\Desktop\Autocliker\Autocliker "C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)" "C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)" "C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles\Autoclicker.dir\DependInfo.cmake" "--color=$(COLOR)" Autoclicker
 .PHONY : CMakeFiles/Autoclicker.dir/depend
 

@@ -44,14 +44,24 @@ target_sources(Autoclicker PRIVATE
     src/core/interfaces/IControllerObserver.h
     src/core/registry/ActionRegistry.h
     src/core/registry/StrategyRegistry.h
+    
+    # Actions (Cliques e Macros)
     src/core/actions/ClickAction.h
     src/core/actions/ClickAction.cpp
+    src/core/actions/MacroRecorder.h      # ADICIONADO
+    src/core/actions/MacroRecorder.cpp    # ADICIONADO
+    src/core/actions/PlayMacroAction.h    # ADICIONADO
+    src/core/actions/PlayMacroAction.cpp  # ADICIONADO
+    
+    # Strategies
     src/core/strategies/FixedStrategy.h
     src/core/strategies/JitterStrategy.h
+    
+    # Types
     src/core/CoreTypes.h
 )
 
-# DIRETÓRIOS DE INCLUDE (O segredo está aqui)
+# DIRETÓRIOS DE INCLUDE
 target_include_directories(Autoclicker PRIVATE 
     "${CMAKE_CURRENT_SOURCE_DIR}"      # Permite include "ui/..." e "src/..."
     "${CMAKE_CURRENT_SOURCE_DIR}/src"  # Permite include direto sem o prefixo src

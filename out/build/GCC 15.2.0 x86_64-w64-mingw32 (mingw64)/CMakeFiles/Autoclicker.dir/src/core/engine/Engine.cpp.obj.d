@@ -1,6 +1,6 @@
 CMakeFiles/Autoclicker.dir/src/core/engine/Engine.cpp.obj: \
- C:\Users\pbent\Desktop\Autocliker\src\core\engine\Engine.cpp \
- C:/Users/pbent/Desktop/Autocliker/src/core/engine/Engine.h \
+ C:\Users\pbent\Desktop\Autocliker\Autocliker\src\core\engine\Engine.cpp \
+ C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/engine/Engine.h \
  C:/msys64/mingw64/include/c++/15.2.0/atomic \
  C:/msys64/mingw64/include/c++/15.2.0/bits/version.h \
  C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -123,6 +123,6 @@ CMakeFiles/Autoclicker.dir/src/core/engine/Engine.cpp.obj: \
  C:/msys64/mingw64/include/c++/15.2.0/backward/auto_ptr.h \
  C:/msys64/mingw64/include/c++/15.2.0/pstl/glue_memory_defs.h \
  C:/msys64/mingw64/include/c++/15.2.0/pstl/execution_defs.h \
- C:/Users/pbent/Desktop/Autocliker/src/core/interfaces/IStrategy.h \
+ C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/interfaces/IStrategy.h \
  C:/msys64/mingw64/include/c++/15.2.0/chrono \
- C:/Users/pbent/Desktop/Autocliker/src/core/interfaces/IAction.h
+ C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/interfaces/IAction.h

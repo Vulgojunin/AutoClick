@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\pbent\Desktop\Autocliker
+CMAKE_SOURCE_DIR = C:\Users\pbent\Desktop\Autocliker\Autocliker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+CMAKE_BINARY_DIR = "C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
 
 # Utility rule file for Autoclicker_autogen_timestamp_deps.
 
@@ -80,6 +80,6 @@ CMakeFiles/Autoclicker_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/Autoclicker_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/Autoclicker_autogen_timestamp_deps.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\pbent\Desktop\Autocliker C:\Users\pbent\Desktop\Autocliker "C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)" "C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)" "C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles\Autoclicker_autogen_timestamp_deps.dir\DependInfo.cmake" "--color=$(COLOR)" Autoclicker_autogen_timestamp_deps
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\pbent\Desktop\Autocliker\Autocliker C:\Users\pbent\Desktop\Autocliker\Autocliker "C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)" "C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)" "C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles\Autoclicker_autogen_timestamp_deps.dir\DependInfo.cmake" "--color=$(COLOR)" Autoclicker_autogen_timestamp_deps
 .PHONY : CMakeFiles/Autoclicker_autogen_timestamp_deps.dir/depend
 

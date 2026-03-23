@@ -262,7 +262,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Qt/6.10.2/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake"
   "C:/Qt/6.10.2/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake"
   "C:/Qt/6.10.2/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake"
-  "C:/Users/pbent/Desktop/Autocliker/CMakeLists.txt"
+  "C:/Users/pbent/Desktop/Autocliker/Autocliker/CMakeLists.txt"
   "CMakeFiles/4.3.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.3.0/CMakeRCCompiler.cmake"
   "CMakeFiles/4.3.0/CMakeSystem.cmake"

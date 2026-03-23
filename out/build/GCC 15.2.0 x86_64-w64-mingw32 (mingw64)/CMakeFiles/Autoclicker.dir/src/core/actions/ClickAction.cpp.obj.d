@@ -1,7 +1,8 @@
 CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.obj: \
- C:\Users\pbent\Desktop\Autocliker\src\core\actions\ClickAction.cpp \
- C:/Users/pbent/Desktop/Autocliker/src/core/actions/ClickAction.h \
- C:/Users/pbent/Desktop/Autocliker/src/core/interfaces/IAction.h \
+ C:\Users\pbent\Desktop\Autocliker\Autocliker\src\core\actions\ClickAction.cpp \
+ C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/actions/ClickAction.h \
+ C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/interfaces/IAction.h \
+ C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/CoreTypes.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/_mingw_mac.h \
  C:/msys64/mingw64/include/_mingw_secapi.h \

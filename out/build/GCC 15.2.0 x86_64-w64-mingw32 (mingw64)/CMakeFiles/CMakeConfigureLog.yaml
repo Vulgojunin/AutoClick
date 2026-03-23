@@ -49,6 +49,7 @@ events:
       - "C:/Users/pbent/.dotnet/tools/"
       - "C:/Users/pbent/AppData/Local/Programs/Ollama/"
       - "C:/Users/pbent/AppData/Local/Python/bin/"
+      - "C:/flutter/bin/"
       - "/REGISTRY-NOTFOUND/bin/"
       - "c:/MinGW/bin/"
       - "/MinGW/bin/"
@@ -105,7 +106,8 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find-v1"
     backtrace:
@@ -154,7 +156,8 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "message-v1"
     backtrace:
@@ -175,7 +178,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/4.3.0/CompilerIdCXX/a.exe
+        C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/4.3.0/CompilerIdCXX/a.exe
       
   -
     kind: "find-v1"
@@ -216,6 +219,7 @@ events:
       - "C:/Users/pbent/.dotnet/tools/"
       - "C:/Users/pbent/AppData/Local/Programs/Ollama/"
       - "C:/Users/pbent/AppData/Local/Python/bin/"
+      - "C:/flutter/bin/"
     searched_directories:
       - "C:/msys64/mingw64/bin/ar.com"
     found: "C:/msys64/mingw64/bin/ar.exe"
@@ -242,7 +246,8 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find-v1"
     backtrace:
@@ -282,6 +287,7 @@ events:
       - "C:/Users/pbent/.dotnet/tools/"
       - "C:/Users/pbent/AppData/Local/Programs/Ollama/"
       - "C:/Users/pbent/AppData/Local/Python/bin/"
+      - "C:/flutter/bin/"
     searched_directories:
       - "C:/msys64/mingw64/bin/ranlib.com"
     found: "C:/msys64/mingw64/bin/ranlib.exe"
@@ -308,7 +314,8 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find-v1"
     backtrace:
@@ -348,6 +355,7 @@ events:
       - "C:/Users/pbent/.dotnet/tools/"
       - "C:/Users/pbent/AppData/Local/Programs/Ollama/"
       - "C:/Users/pbent/AppData/Local/Python/bin/"
+      - "C:/flutter/bin/"
     searched_directories:
       - "C:/msys64/mingw64/bin/strip.com"
     found: "C:/msys64/mingw64/bin/strip.exe"
@@ -374,7 +382,8 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find-v1"
     backtrace:
@@ -414,6 +423,7 @@ events:
       - "C:/Users/pbent/.dotnet/tools/"
       - "C:/Users/pbent/AppData/Local/Programs/Ollama/"
       - "C:/Users/pbent/AppData/Local/Python/bin/"
+      - "C:/flutter/bin/"
     searched_directories:
       - "C:/msys64/mingw64/bin/ld.com"
     found: "C:/msys64/mingw64/bin/ld.exe"
@@ -440,7 +450,8 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find-v1"
     backtrace:
@@ -480,6 +491,7 @@ events:
       - "C:/Users/pbent/.dotnet/tools/"
       - "C:/Users/pbent/AppData/Local/Programs/Ollama/"
       - "C:/Users/pbent/AppData/Local/Python/bin/"
+      - "C:/flutter/bin/"
     searched_directories:
       - "C:/msys64/mingw64/bin/nm.com"
     found: "C:/msys64/mingw64/bin/nm.exe"
@@ -506,7 +518,8 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find-v1"
     backtrace:
@@ -546,6 +559,7 @@ events:
       - "C:/Users/pbent/.dotnet/tools/"
       - "C:/Users/pbent/AppData/Local/Programs/Ollama/"
       - "C:/Users/pbent/AppData/Local/Python/bin/"
+      - "C:/flutter/bin/"
     searched_directories:
       - "C:/msys64/mingw64/bin/objdump.com"
     found: "C:/msys64/mingw64/bin/objdump.exe"
@@ -572,7 +586,8 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find-v1"
     backtrace:
@@ -612,6 +627,7 @@ events:
       - "C:/Users/pbent/.dotnet/tools/"
       - "C:/Users/pbent/AppData/Local/Programs/Ollama/"
       - "C:/Users/pbent/AppData/Local/Python/bin/"
+      - "C:/flutter/bin/"
     searched_directories:
       - "C:/msys64/mingw64/bin/objcopy.com"
     found: "C:/msys64/mingw64/bin/objcopy.exe"
@@ -638,7 +654,8 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find-v1"
     backtrace:
@@ -678,6 +695,7 @@ events:
       - "C:/Users/pbent/.dotnet/tools/"
       - "C:/Users/pbent/AppData/Local/Programs/Ollama/"
       - "C:/Users/pbent/AppData/Local/Python/bin/"
+      - "C:/flutter/bin/"
     searched_directories:
       - "C:/msys64/mingw64/bin/readelf.com"
     found: "C:/msys64/mingw64/bin/readelf.exe"
@@ -704,7 +722,8 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find-v1"
     backtrace:
@@ -744,6 +763,7 @@ events:
       - "C:/Users/pbent/.dotnet/tools/"
       - "C:/Users/pbent/AppData/Local/Programs/Ollama/"
       - "C:/Users/pbent/AppData/Local/Python/bin/"
+      - "C:/flutter/bin/"
     searched_directories:
       - "C:/msys64/mingw64/bin/dlltool.com"
     found: "C:/msys64/mingw64/bin/dlltool.exe"
@@ -770,7 +790,8 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find-v1"
     backtrace:
@@ -810,6 +831,7 @@ events:
       - "C:/Users/pbent/.dotnet/tools/"
       - "C:/Users/pbent/AppData/Local/Programs/Ollama/"
       - "C:/Users/pbent/AppData/Local/Python/bin/"
+      - "C:/flutter/bin/"
     searched_directories:
       - "C:/msys64/mingw64/bin/addr2line.com"
     found: "C:/msys64/mingw64/bin/addr2line.exe"
@@ -836,7 +858,8 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find-v1"
     backtrace:
@@ -876,6 +899,7 @@ events:
       - "C:/Users/pbent/.dotnet/tools/"
       - "C:/Users/pbent/AppData/Local/Programs/Ollama/"
       - "C:/Users/pbent/AppData/Local/Python/bin/"
+      - "C:/flutter/bin/"
     searched_directories:
       - "C:/msys64/mingw64/bin/tapi.com"
       - "C:/msys64/mingw64/bin/tapi.exe"
@@ -934,6 +958,9 @@ events:
       - "C:/Users/pbent/AppData/Local/Python/bin/tapi.com"
       - "C:/Users/pbent/AppData/Local/Python/bin/tapi.exe"
       - "C:/Users/pbent/AppData/Local/Python/bin/tapi"
+      - "C:/flutter/bin/tapi.com"
+      - "C:/flutter/bin/tapi.exe"
+      - "C:/flutter/bin/tapi"
     found: false
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
@@ -958,7 +985,8 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find-v1"
     backtrace:
@@ -1001,6 +1029,7 @@ events:
       - "C:/Users/pbent/.dotnet/tools/"
       - "C:/Users/pbent/AppData/Local/Programs/Ollama/"
       - "C:/Users/pbent/AppData/Local/Python/bin/"
+      - "C:/flutter/bin/"
     searched_directories:
       - "C:/msys64/mingw64/bin/gcc-ar-15.2.com"
       - "C:/msys64/mingw64/bin/gcc-ar-15.2.exe"
@@ -1059,6 +1088,9 @@ events:
       - "C:/Users/pbent/AppData/Local/Python/bin/gcc-ar-15.2.com"
       - "C:/Users/pbent/AppData/Local/Python/bin/gcc-ar-15.2.exe"
       - "C:/Users/pbent/AppData/Local/Python/bin/gcc-ar-15.2"
+      - "C:/flutter/bin/gcc-ar-15.2.com"
+      - "C:/flutter/bin/gcc-ar-15.2.exe"
+      - "C:/flutter/bin/gcc-ar-15.2"
       - "C:/msys64/mingw64/bin/gcc-ar-15.com"
       - "C:/msys64/mingw64/bin/gcc-ar-15.exe"
       - "C:/msys64/mingw64/bin/gcc-ar-15"
@@ -1116,6 +1148,9 @@ events:
       - "C:/Users/pbent/AppData/Local/Python/bin/gcc-ar-15.com"
       - "C:/Users/pbent/AppData/Local/Python/bin/gcc-ar-15.exe"
       - "C:/Users/pbent/AppData/Local/Python/bin/gcc-ar-15"
+      - "C:/flutter/bin/gcc-ar-15.com"
+      - "C:/flutter/bin/gcc-ar-15.exe"
+      - "C:/flutter/bin/gcc-ar-15"
       - "C:/msys64/mingw64/bin/gcc-ar15.com"
       - "C:/msys64/mingw64/bin/gcc-ar15.exe"
       - "C:/msys64/mingw64/bin/gcc-ar15"
@@ -1173,6 +1208,9 @@ events:
       - "C:/Users/pbent/AppData/Local/Python/bin/gcc-ar15.com"
       - "C:/Users/pbent/AppData/Local/Python/bin/gcc-ar15.exe"
       - "C:/Users/pbent/AppData/Local/Python/bin/gcc-ar15"
+      - "C:/flutter/bin/gcc-ar15.com"
+      - "C:/flutter/bin/gcc-ar15.exe"
+      - "C:/flutter/bin/gcc-ar15"
       - "C:/msys64/mingw64/bin/gcc-ar.com"
     found: "C:/msys64/mingw64/bin/gcc-ar.exe"
     search_context:
@@ -1198,7 +1236,8 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find-v1"
     backtrace:
@@ -1241,6 +1280,7 @@ events:
       - "C:/Users/pbent/.dotnet/tools/"
       - "C:/Users/pbent/AppData/Local/Programs/Ollama/"
       - "C:/Users/pbent/AppData/Local/Python/bin/"
+      - "C:/flutter/bin/"
     searched_directories:
       - "C:/msys64/mingw64/bin/gcc-ranlib-15.2.com"
       - "C:/msys64/mingw64/bin/gcc-ranlib-15.2.exe"
@@ -1299,6 +1339,9 @@ events:
       - "C:/Users/pbent/AppData/Local/Python/bin/gcc-ranlib-15.2.com"
       - "C:/Users/pbent/AppData/Local/Python/bin/gcc-ranlib-15.2.exe"
       - "C:/Users/pbent/AppData/Local/Python/bin/gcc-ranlib-15.2"
+      - "C:/flutter/bin/gcc-ranlib-15.2.com"
+      - "C:/flutter/bin/gcc-ranlib-15.2.exe"
+      - "C:/flutter/bin/gcc-ranlib-15.2"
       - "C:/msys64/mingw64/bin/gcc-ranlib-15.com"
       - "C:/msys64/mingw64/bin/gcc-ranlib-15.exe"
       - "C:/msys64/mingw64/bin/gcc-ranlib-15"
@@ -1356,6 +1399,9 @@ events:
       - "C:/Users/pbent/AppData/Local/Python/bin/gcc-ranlib-15.com"
       - "C:/Users/pbent/AppData/Local/Python/bin/gcc-ranlib-15.exe"
       - "C:/Users/pbent/AppData/Local/Python/bin/gcc-ranlib-15"
+      - "C:/flutter/bin/gcc-ranlib-15.com"
+      - "C:/flutter/bin/gcc-ranlib-15.exe"
+      - "C:/flutter/bin/gcc-ranlib-15"
       - "C:/msys64/mingw64/bin/gcc-ranlib15.com"
       - "C:/msys64/mingw64/bin/gcc-ranlib15.exe"
       - "C:/msys64/mingw64/bin/gcc-ranlib15"
@@ -1413,6 +1459,9 @@ events:
       - "C:/Users/pbent/AppData/Local/Python/bin/gcc-ranlib15.com"
       - "C:/Users/pbent/AppData/Local/Python/bin/gcc-ranlib15.exe"
       - "C:/Users/pbent/AppData/Local/Python/bin/gcc-ranlib15"
+      - "C:/flutter/bin/gcc-ranlib15.com"
+      - "C:/flutter/bin/gcc-ranlib15.exe"
+      - "C:/flutter/bin/gcc-ranlib15"
       - "C:/msys64/mingw64/bin/gcc-ranlib.com"
     found: "C:/msys64/mingw64/bin/gcc-ranlib.exe"
     search_context:
@@ -1438,7 +1487,8 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find-v1"
     backtrace:
@@ -1484,6 +1534,7 @@ events:
       - "C:/Users/pbent/.dotnet/tools/"
       - "C:/Users/pbent/AppData/Local/Programs/Ollama/"
       - "C:/Users/pbent/AppData/Local/Python/bin/"
+      - "C:/flutter/bin/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -1493,9 +1544,9 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/CMake/sbin/"
       - "C:/Program Files/CMake/"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/sbin/"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/sbin/"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/"
     searched_directories:
       - "C:/Qt/6.10.2/mingw_64/bin/windres.com"
       - "C:/Qt/6.10.2/mingw_64/bin/windres.exe"
@@ -1561,12 +1612,13 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -1576,8 +1628,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-0n62k8"
-      binary: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-0n62k8"
+      source: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-2nr8wh"
+      binary: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-2nr8wh"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1588,13 +1640,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-0n62k8'
+        Change Dir: 'C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-2nr8wh'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_36c5c/fast
-        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_36c5c.dir\\build.make CMakeFiles/cmTC_36c5c.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-0n62k8'
-        Building CXX object CMakeFiles/cmTC_36c5c.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\msys64\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_36c5c.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d2536/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d2536.dir\\build.make CMakeFiles/cmTC_d2536.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-2nr8wh'
+        Building CXX object CMakeFiles/cmTC_d2536.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\msys64\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_d2536.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\mingw64\\bin\\g++.exe
         Target: x86_64-w64-mingw32
@@ -1602,8 +1654,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (Rev8, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_36c5c.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_36c5c.dir\\'
-         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_36c5c.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\pbent\\AppData\\Local\\Temp\\ccnPz3KN.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d2536.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d2536.dir\\'
+         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_d2536.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\pbent\\AppData\\Local\\Temp\\ccPBtAug.s
         GNU C++17 (Rev8, Built by MSYS2 project) version 15.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1628,14 +1680,14 @@ events:
          C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
         End of search list.
         Compiler executable checksum: e7386b44e3a7fd4f3b26b08cdd95994a
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_36c5c.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_36c5c.dir\\'
-         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_36c5c.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\pbent\\AppData\\Local\\Temp\\ccnPz3KN.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d2536.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d2536.dir\\'
+         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_d2536.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\pbent\\AppData\\Local\\Temp\\ccPBtAug.s
         GNU assembler version 2.45.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45.1
         COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_36c5c.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_36c5c.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_36c5c.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_36c5c.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d2536.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d2536.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_d2536.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_d2536.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\mingw64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
@@ -1646,16 +1698,16 @@ events:
         gcc version 15.2.0 (Rev8, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/mingw64/bin/../lib/gcc/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_36c5c.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_36c5c.'
-         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\pbent\\AppData\\Local\\Temp\\ccfBQvER.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_36c5c.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_36c5c.dir/objects.a --no-whole-archive --out-implib libcmTC_36c5c.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d2536.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_d2536.'
+         C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\pbent\\AppData\\Local\\Temp\\cc3IWw4k.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d2536.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d2536.dir/objects.a --no-whole-archive --out-implib libcmTC_d2536.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         collect2 version 15.2.0
-        C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\pbent\\AppData\\Local\\Temp\\ccfBQvER.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_36c5c.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_36c5c.dir/objects.a --no-whole-archive --out-implib libcmTC_36c5c.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\pbent\\AppData\\Local\\Temp\\cc3IWw4k.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d2536.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d2536.dir/objects.a --no-whole-archive --out-implib libcmTC_d2536.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (GNU Binutils) 2.45.1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_36c5c.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_36c5c.'
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_36c5c.dir/objects.a
-        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_36c5c.dir/objects.a @CMakeFiles\\cmTC_36c5c.dir\\objects1.rsp
-        C:\\msys64\\mingw64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_36c5c.dir/objects.a -Wl,--no-whole-archive -o cmTC_36c5c.exe -Wl,--out-implib,libcmTC_36c5c.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-0n62k8'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d2536.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_d2536.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_d2536.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_d2536.dir/objects.a @CMakeFiles\\cmTC_d2536.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_d2536.dir/objects.a -Wl,--no-whole-archive -o cmTC_d2536.exe -Wl,--out-implib,libcmTC_d2536.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-2nr8wh'
         
       exitCode: 0
   -
@@ -1694,13 +1746,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-0n62k8']
+        ignore line: [Change Dir: 'C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-2nr8wh']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_36c5c/fast]
-        ignore line: [C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_36c5c.dir\\build.make CMakeFiles/cmTC_36c5c.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-0n62k8']
-        ignore line: [Building CXX object CMakeFiles/cmTC_36c5c.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\msys64\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_36c5c.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_d2536/fast]
+        ignore line: [C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d2536.dir\\build.make CMakeFiles/cmTC_d2536.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-2nr8wh']
+        ignore line: [Building CXX object CMakeFiles/cmTC_d2536.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\msys64\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_d2536.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\mingw64\\bin\\g++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -1708,8 +1760,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (Rev8  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_36c5c.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_36c5c.dir\\']
-        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_36c5c.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\pbent\\AppData\\Local\\Temp\\ccnPz3KN.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d2536.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d2536.dir\\']
+        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_d2536.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\pbent\\AppData\\Local\\Temp\\ccPBtAug.s]
         ignore line: [GNU C++17 (Rev8  Built by MSYS2 project) version 15.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1734,8 +1786,8 @@ events:
         ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: e7386b44e3a7fd4f3b26b08cdd95994a]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_36c5c.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_36c5c.dir\\']
-        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_36c5c.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\pbent\\AppData\\Local\\Temp\\ccnPz3KN.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d2536.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d2536.dir\\']
+        ignore line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_d2536.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\pbent\\AppData\\Local\\Temp\\ccPBtAug.s]
         ignore line: [GNU assembler version 2.45.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45.1]
         ignore line: [COMPILER_PATH=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/]
@@ -1746,9 +1798,9 @@ events:
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_36c5c.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_36c5c.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_36c5c.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_36c5c.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_d2536.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_d2536.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_d2536.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_d2536.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\mingw64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
@@ -1766,13 +1818,13 @@ events:
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_36c5c.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_36c5c.']
-        link line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\pbent\\AppData\\Local\\Temp\\ccfBQvER.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_36c5c.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_36c5c.dir/objects.a --no-whole-archive --out-implib libcmTC_36c5c.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d2536.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_d2536.']
+        link line: [ C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\pbent\\AppData\\Local\\Temp\\cc3IWw4k.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d2536.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d2536.dir/objects.a --no-whole-archive --out-implib libcmTC_d2536.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\pbent\\AppData\\Local\\Temp\\ccfBQvER.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\pbent\\AppData\\Local\\Temp\\cc3IWw4k.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -1794,7 +1846,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_36c5c.exe] ==> ignore
+          arg [cmTC_d2536.exe] ==> ignore
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o] ==> obj [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o]
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -1805,10 +1857,10 @@ events:
           arg [-LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_36c5c.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_d2536.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_36c5c.dll.a] ==> ignore
+          arg [libcmTC_d2536.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -1834,7 +1886,7 @@ events:
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o]
           arg [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         ignore line: [collect2 version 15.2.0]
-        ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\pbent\\AppData\\Local\\Temp\\ccfBQvER.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_36c5c.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_36c5c.dir/objects.a --no-whole-archive --out-implib libcmTC_36c5c.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\pbent\\AppData\\Local\\Temp\\cc3IWw4k.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d2536.exe C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/mingw64/bin/../lib/gcc -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_d2536.dir/objects.a --no-whole-archive --out-implib libcmTC_d2536.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         linker tool for 'CXX': C:/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]
@@ -1880,8 +1932,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-tvb8s8"
-      binary: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-tvb8s8"
+      source: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-naaz96"
+      binary: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-naaz96"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1892,19 +1944,19 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-tvb8s8'
+        Change Dir: 'C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-naaz96'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_5c84e/fast
-        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5c84e.dir\\build.make CMakeFiles/cmTC_5c84e.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-tvb8s8'
-        Building CXX object CMakeFiles/cmTC_5c84e.dir/src.cxx.obj
-        C:\\msys64\\mingw64\\bin\\g++.exe -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles\\cmTC_5c84e.dir\\src.cxx.obj -c "C:\\Users\\pbent\\Desktop\\Autocliker\\out\\build\\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\\CMakeFiles\\CMakeScratch\\TryCompile-tvb8s8\\src.cxx"
-        Linking CXX executable cmTC_5c84e.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_5c84e.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_5c84e.dir/objects.a
-        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_5c84e.dir/objects.a @CMakeFiles\\cmTC_5c84e.dir\\objects1.rsp
-        C:\\msys64\\mingw64\\bin\\g++.exe -Wl,--whole-archive CMakeFiles\\cmTC_5c84e.dir/objects.a -Wl,--no-whole-archive -o cmTC_5c84e.exe -Wl,--out-implib,libcmTC_5c84e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_5c84e.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-tvb8s8'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_593a8/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_593a8.dir\\build.make CMakeFiles/cmTC_593a8.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-naaz96'
+        Building CXX object CMakeFiles/cmTC_593a8.dir/src.cxx.obj
+        C:\\msys64\\mingw64\\bin\\g++.exe -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles\\cmTC_593a8.dir\\src.cxx.obj -c "C:\\Users\\pbent\\Desktop\\Autocliker\\Autocliker\\out\\build\\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\\CMakeFiles\\CMakeScratch\\TryCompile-naaz96\\src.cxx"
+        Linking CXX executable cmTC_593a8.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_593a8.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_593a8.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_593a8.dir/objects.a @CMakeFiles\\cmTC_593a8.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\g++.exe -Wl,--whole-archive CMakeFiles\\cmTC_593a8.dir/objects.a -Wl,--no-whole-archive -o cmTC_593a8.exe -Wl,--out-implib,libcmTC_593a8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_593a8.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-naaz96'
         
       exitCode: 0
   -
@@ -1961,27 +2013,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/Qt6CoreToolsConfig.cmake"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/Qt6CoreToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/Qt6CoreTools.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/Qt6CoreTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/qt6coretools.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/qt6coretools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/Qt6CoreTools.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/Qt6CoreTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/qt6coretools.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/qt6coretools.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -2035,12 +2087,13 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find_package-v1"
     backtrace:
@@ -2095,27 +2148,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/Qt6GuiToolsConfig.cmake"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/Qt6GuiToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/Qt6GuiTools.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/Qt6GuiTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/qt6guitools.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/qt6guitools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/Qt6GuiTools.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/Qt6GuiTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/qt6guitools.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/qt6guitools.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -2169,12 +2222,13 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find_package-v1"
     backtrace:
@@ -2226,27 +2280,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/Qt6WidgetsToolsConfig.cmake"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/Qt6WidgetsToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/qt6widgetstools-config.cmake"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/qt6widgetstools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/Qt6WidgetsTools.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/Qt6WidgetsTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/qt6widgetstools.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/qt6widgetstools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/Qt6WidgetsTools.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/Qt6WidgetsTools.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/qt6widgetstools.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/qt6widgetstools.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -2300,12 +2354,13 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -2327,8 +2382,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-8qxtan"
-      binary: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-8qxtan"
+      source: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-vhqvg6"
+      binary: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-vhqvg6"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2339,19 +2394,19 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-8qxtan'
+        Change Dir: 'C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-vhqvg6'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a0697/fast
-        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a0697.dir\\build.make CMakeFiles/cmTC_a0697.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-8qxtan'
-        Building CXX object CMakeFiles/cmTC_a0697.dir/src.cxx.obj
-        C:\\msys64\\mingw64\\bin\\g++.exe -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles\\cmTC_a0697.dir\\src.cxx.obj -c "C:\\Users\\pbent\\Desktop\\Autocliker\\out\\build\\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\\CMakeFiles\\CMakeScratch\\TryCompile-8qxtan\\src.cxx"
-        Linking CXX executable cmTC_a0697.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a0697.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_a0697.dir/objects.a
-        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_a0697.dir/objects.a @CMakeFiles\\cmTC_a0697.dir\\objects1.rsp
-        C:\\msys64\\mingw64\\bin\\g++.exe -Wl,--whole-archive CMakeFiles\\cmTC_a0697.dir/objects.a -Wl,--no-whole-archive -o cmTC_a0697.exe -Wl,--out-implib,libcmTC_a0697.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_a0697.dir\\linkLibs.rsp
-        mingw32-make[1]: Leaving directory 'C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-8qxtan'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/mingw64/bin/mingw32-make.exe -f Makefile cmTC_6269f/fast
+        C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_6269f.dir\\build.make CMakeFiles/cmTC_6269f.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-vhqvg6'
+        Building CXX object CMakeFiles/cmTC_6269f.dir/src.cxx.obj
+        C:\\msys64\\mingw64\\bin\\g++.exe -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles\\cmTC_6269f.dir\\src.cxx.obj -c "C:\\Users\\pbent\\Desktop\\Autocliker\\Autocliker\\out\\build\\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\\CMakeFiles\\CMakeScratch\\TryCompile-vhqvg6\\src.cxx"
+        Linking CXX executable cmTC_6269f.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_6269f.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_6269f.dir/objects.a
+        C:\\msys64\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_6269f.dir/objects.a @CMakeFiles\\cmTC_6269f.dir\\objects1.rsp
+        C:\\msys64\\mingw64\\bin\\g++.exe -Wl,--whole-archive CMakeFiles\\cmTC_6269f.dir/objects.a -Wl,--no-whole-archive -o cmTC_6269f.exe -Wl,--out-implib,libcmTC_6269f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_6269f.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/CMakeScratch/TryCompile-vhqvg6'
         
       exitCode: 0
   -
@@ -2412,27 +2467,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/Qt6EntryPointPrivateConfig.cmake"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/Qt6EntryPointPrivateConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/qt6entrypointprivate-config.cmake"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/qt6entrypointprivate-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/Qt6EntryPointPrivate.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/Qt6EntryPointPrivate.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/qt6entrypointprivate.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/qt6entrypointprivate.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/Qt6EntryPointPrivate.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/Qt6EntryPointPrivate.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/qt6entrypointprivate.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/qt6entrypointprivate.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -2470,12 +2525,13 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find-v1"
     backtrace:
@@ -2526,6 +2582,7 @@ events:
       - "C:/Users/pbent/.dotnet/tools/"
       - "C:/Users/pbent/AppData/Local/Programs/Ollama/"
       - "C:/Users/pbent/AppData/Local/Python/bin/"
+      - "C:/flutter/bin/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -2535,9 +2592,9 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/CMake/sbin/"
       - "C:/Program Files/CMake/"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/sbin/"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/sbin/"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/"
     searched_directories:
       - "C:/Qt/6.10.2/mingw_64/bin/windeployqt.com"
     found: "C:/Qt/6.10.2/mingw_64/bin/windeployqt.exe"
@@ -2564,12 +2621,13 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find_package-v1"
     backtrace:
@@ -2623,27 +2681,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/Qt6CoreConfig.cmake"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/Qt6CoreConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/qt6core-config.cmake"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/qt6core-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/Qt6Core.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/Qt6Core.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/qt6core.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/qt6core.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/Qt6Core.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/Qt6Core.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/qt6core.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/qt6core.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -2697,12 +2755,13 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find-v1"
     backtrace:
@@ -2753,14 +2812,15 @@ events:
       - "C:/Users/pbent/.dotnet/tools/"
       - "C:/Users/pbent/AppData/Local/Programs/Ollama/"
       - "C:/Users/pbent/AppData/Local/Python/bin/"
+      - "C:/flutter/bin/"
       - "C:/Program Files/include/"
       - "C:/Program Files/"
       - "C:/Program Files (x86)/include/"
       - "C:/Program Files (x86)/"
       - "C:/Program Files/CMake/include/"
       - "C:/Program Files/CMake/"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/include/"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/include/"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/"
     searched_directories:
       - "C:/Qt/6.10.2/mingw_64/include/vulkan/vulkan.h"
       - "C:/Qt/6.10.2/mingw_64/vulkan/vulkan.h"
@@ -2783,14 +2843,15 @@ events:
       - "C:/Users/pbent/.dotnet/tools/vulkan/vulkan.h"
       - "C:/Users/pbent/AppData/Local/Programs/Ollama/vulkan/vulkan.h"
       - "C:/Users/pbent/AppData/Local/Python/bin/vulkan/vulkan.h"
+      - "C:/flutter/bin/vulkan/vulkan.h"
       - "C:/Program Files/include/vulkan/vulkan.h"
       - "C:/Program Files/vulkan/vulkan.h"
       - "C:/Program Files (x86)/include/vulkan/vulkan.h"
       - "C:/Program Files (x86)/vulkan/vulkan.h"
       - "C:/Program Files/CMake/include/vulkan/vulkan.h"
       - "C:/Program Files/CMake/vulkan/vulkan.h"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/include/vulkan/vulkan.h"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/vulkan/vulkan.h"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/include/vulkan/vulkan.h"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/vulkan/vulkan.h"
     found: false
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
@@ -2815,12 +2876,13 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find-v1"
     backtrace:
@@ -2871,15 +2933,16 @@ events:
       - "C:/Users/pbent/.dotnet/tools/"
       - "C:/Users/pbent/AppData/Local/Programs/Ollama/"
       - "C:/Users/pbent/AppData/Local/Python/bin/"
+      - "C:/flutter/bin/"
       - "C:/Program Files/lib/"
       - "C:/Program Files/"
       - "C:/Program Files (x86)/lib/"
       - "C:/Program Files (x86)/"
       - "C:/Program Files/CMake/lib/"
       - "C:/Program Files/CMake/"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/lib/"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/lib/"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/"
       - "/bin/"
     searched_directories:
       - "C:/Qt/6.10.2/mingw_64/lib/"
@@ -2903,15 +2966,16 @@ events:
       - "C:/Users/pbent/.dotnet/tools/"
       - "C:/Users/pbent/AppData/Local/Programs/Ollama/"
       - "C:/Users/pbent/AppData/Local/Python/bin/"
+      - "C:/flutter/bin/"
       - "C:/Program Files/lib/"
       - "C:/Program Files/"
       - "C:/Program Files (x86)/lib/"
       - "C:/Program Files (x86)/"
       - "C:/Program Files/CMake/lib/"
       - "C:/Program Files/CMake/"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/lib/"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/lib/"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/"
       - "/bin/"
     found: false
     search_context:
@@ -2937,14 +3001,15 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
       CMAKE_SYSTEM_LIBRARY_PATH:
-        - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin"
+        - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin"
         - "C:/Program Files/CMake/bin"
         - "/bin"
   -
@@ -2998,6 +3063,7 @@ events:
       - "C:/Users/pbent/.dotnet/tools/"
       - "C:/Users/pbent/AppData/Local/Programs/Ollama/"
       - "C:/Users/pbent/AppData/Local/Python/bin/"
+      - "C:/flutter/bin/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -3007,9 +3073,9 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/CMake/sbin/"
       - "C:/Program Files/CMake/"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/sbin/"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/sbin/"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/"
     searched_directories:
       - "C:/Qt/6.10.2/mingw_64/bin/glslc.com"
       - "C:/Qt/6.10.2/mingw_64/bin/glslc.exe"
@@ -3077,6 +3143,9 @@ events:
       - "C:/Users/pbent/AppData/Local/Python/bin/glslc.com"
       - "C:/Users/pbent/AppData/Local/Python/bin/glslc.exe"
       - "C:/Users/pbent/AppData/Local/Python/bin/glslc"
+      - "C:/flutter/bin/glslc.com"
+      - "C:/flutter/bin/glslc.exe"
+      - "C:/flutter/bin/glslc"
       - "C:/Program Files/bin/glslc.com"
       - "C:/Program Files/bin/glslc.exe"
       - "C:/Program Files/bin/glslc"
@@ -3104,15 +3173,15 @@ events:
       - "C:/Program Files/CMake/glslc.com"
       - "C:/Program Files/CMake/glslc.exe"
       - "C:/Program Files/CMake/glslc"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/glslc.com"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/glslc.exe"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/glslc"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/sbin/glslc.com"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/sbin/glslc.exe"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/sbin/glslc"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/glslc.com"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/glslc.exe"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/glslc"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/glslc.com"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/glslc.exe"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/glslc"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/sbin/glslc.com"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/sbin/glslc.exe"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/sbin/glslc"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/glslc.com"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/glslc.exe"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/glslc"
     found: false
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
@@ -3137,12 +3206,13 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find-v1"
     backtrace:
@@ -3194,6 +3264,7 @@ events:
       - "C:/Users/pbent/.dotnet/tools/"
       - "C:/Users/pbent/AppData/Local/Programs/Ollama/"
       - "C:/Users/pbent/AppData/Local/Python/bin/"
+      - "C:/flutter/bin/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -3203,9 +3274,9 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/CMake/sbin/"
       - "C:/Program Files/CMake/"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/sbin/"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/sbin/"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/"
     searched_directories:
       - "C:/Qt/6.10.2/mingw_64/bin/glslangValidator.com"
       - "C:/Qt/6.10.2/mingw_64/bin/glslangValidator.exe"
@@ -3273,6 +3344,9 @@ events:
       - "C:/Users/pbent/AppData/Local/Python/bin/glslangValidator.com"
       - "C:/Users/pbent/AppData/Local/Python/bin/glslangValidator.exe"
       - "C:/Users/pbent/AppData/Local/Python/bin/glslangValidator"
+      - "C:/flutter/bin/glslangValidator.com"
+      - "C:/flutter/bin/glslangValidator.exe"
+      - "C:/flutter/bin/glslangValidator"
       - "C:/Program Files/bin/glslangValidator.com"
       - "C:/Program Files/bin/glslangValidator.exe"
       - "C:/Program Files/bin/glslangValidator"
@@ -3300,15 +3374,15 @@ events:
       - "C:/Program Files/CMake/glslangValidator.com"
       - "C:/Program Files/CMake/glslangValidator.exe"
       - "C:/Program Files/CMake/glslangValidator"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/glslangValidator.com"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/glslangValidator.exe"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/glslangValidator"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/sbin/glslangValidator.com"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/sbin/glslangValidator.exe"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/sbin/glslangValidator"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/glslangValidator.com"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/glslangValidator.exe"
-      - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/glslangValidator"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/glslangValidator.com"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/glslangValidator.exe"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/bin/glslangValidator"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/sbin/glslangValidator.com"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/sbin/glslangValidator.exe"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/sbin/glslangValidator"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/glslangValidator.com"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/glslangValidator.exe"
+      - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/glslangValidator"
     found: false
     search_context:
       ENV{CMAKE_PREFIX_PATH}:
@@ -3333,12 +3407,13 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find_package-v1"
     backtrace:
@@ -3392,27 +3467,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/Qt6GuiConfig.cmake"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/Qt6GuiConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/qt6gui-config.cmake"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/qt6gui-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/Qt6Gui.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/Qt6Gui.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/qt6gui.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/qt6gui.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/Qt6Gui.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/Qt6Gui.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/qt6gui.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/qt6gui.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -3466,12 +3541,13 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find_package-v1"
     backtrace:
@@ -3517,27 +3593,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/Qt6WidgetsConfig.cmake"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/Qt6WidgetsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/qt6widgets-config.cmake"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/qt6widgets-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/Qt6Widgets.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/Qt6Widgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/qt6widgets.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/qt6widgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/Qt6Widgets.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/Qt6Widgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/qt6widgets.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/qt6widgets.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -3591,12 +3667,13 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
   -
     kind: "find_package-v1"
     backtrace:
@@ -3644,27 +3721,27 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/Qt6Config.cmake"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/Qt6Config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/qt6-config.cmake"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/qt6-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/Qt6.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/Qt6.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/qt6.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/lib/cps/qt6.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/Qt6.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/Qt6.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/qt6.cps"
+        path: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/pkgRedirects/share/cps/qt6.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -5390,12 +5467,13 @@ events:
         - "C:\\Users\\pbent\\.dotnet\\tools"
         - "C:\\Users\\pbent\\AppData\\Local\\Programs\\Ollama"
         - "C:\\Users\\pbent\\AppData\\Local\\Python\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:\\flutter\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Users/pbent/Desktop/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+        - "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/install/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
       CMAKE_MODULE_PATH:
         - "C:/Qt/6.10.2/mingw_64/lib/cmake/Qt6"
         - "C:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"

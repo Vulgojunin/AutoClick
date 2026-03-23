@@ -16,18 +16,30 @@ public:
     explicit MainWindow(Controller* controller, QWidget *parent = nullptr);
     ~MainWindow();
 
-    // Contrato do Observer
     void onExecutionStarted() override;
     void onExecutionStopped() override;
 
+protected:
+    bool nativeEvent(const QByteArray &eventType, void *message, qintptr *result) override;
+
 private slots:
-    // CORREÇÃO: Lambdas extraídas para métodos privados (Clean Code)
     void onStartClicked();
     void onStopClicked();
+    
+    // Novos slots para escutar a mudança das hotkeys na UI
+    void onStartKeyChanged(int index);
+    void onStopKeyChanged(int index);
 
 private:
     Ui::MainWindow *ui;
     Controller* m_controller;
+
+    // Variáveis para armazenar as hotkeys atuais do Windows
+    int m_startVK;
+    int m_stopVK;
+
+    // Função auxiliar para atualizar o registro no Windows
+    void updateGlobalHotkeys();
 };
 
 #endif // MAINWINDOW_H

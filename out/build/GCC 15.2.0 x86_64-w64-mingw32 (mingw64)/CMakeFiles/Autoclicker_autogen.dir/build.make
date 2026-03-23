@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\pbent\Desktop\Autocliker
+CMAKE_SOURCE_DIR = C:\Users\pbent\Desktop\Autocliker\Autocliker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
+CMAKE_BINARY_DIR = "C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)"
 
 # Utility rule file for Autoclicker_autogen.
 
@@ -70,9 +70,9 @@ CMakeFiles/Autoclicker_autogen: Autoclicker_autogen/timestamp
 Autoclicker_autogen/timestamp: C:/Qt/6.10.2/mingw_64/bin/moc.exe
 Autoclicker_autogen/timestamp: C:/Qt/6.10.2/mingw_64/bin/uic.exe
 Autoclicker_autogen/timestamp: CMakeFiles/Autoclicker_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Autoclicker"
-	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/Autoclicker_autogen.dir/AutogenInfo.json" Debug
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/pbent/Desktop/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/Autoclicker_autogen/timestamp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Autoclicker"
+	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/CMakeFiles/Autoclicker_autogen.dir/AutogenInfo.json" Debug
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/Autoclicker_autogen/timestamp"
 
 CMakeFiles/Autoclicker_autogen.dir/codegen:
 .PHONY : CMakeFiles/Autoclicker_autogen.dir/codegen
@@ -91,6 +91,6 @@ CMakeFiles/Autoclicker_autogen.dir/clean:
 .PHONY : CMakeFiles/Autoclicker_autogen.dir/clean
 
 CMakeFiles/Autoclicker_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\pbent\Desktop\Autocliker C:\Users\pbent\Desktop\Autocliker "C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)" "C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)" "C:\Users\pbent\Desktop\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles\Autoclicker_autogen.dir\DependInfo.cmake" "--color=$(COLOR)" Autoclicker_autogen
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\pbent\Desktop\Autocliker\Autocliker C:\Users\pbent\Desktop\Autocliker\Autocliker "C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)" "C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)" "C:\Users\pbent\Desktop\Autocliker\Autocliker\out\build\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\CMakeFiles\Autoclicker_autogen.dir\DependInfo.cmake" "--color=$(COLOR)" Autoclicker_autogen
 .PHONY : CMakeFiles/Autoclicker_autogen.dir/depend
 

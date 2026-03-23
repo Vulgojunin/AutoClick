@@ -1,0 +1,62 @@
+[
+{
+  "directory": "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Autoclicker.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Autoclicker.dir\\Autoclicker_autogen\\mocs_compilation.cpp.obj -c \"C:\\Users\\pbent\\Desktop\\Autocliker\\Autocliker\\out\\build\\GCC 15.2.0 x86_64-w64-mingw32 (mingw64)\\Autoclicker_autogen\\mocs_compilation.cpp\"",
+  "file": "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/Autoclicker_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/Autoclicker.dir/Autoclicker_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Autoclicker.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Autoclicker.dir\\src\\main.cpp.obj -c C:\\Users\\pbent\\Desktop\\Autocliker\\Autocliker\\src\\main.cpp",
+  "file": "C:/Users/pbent/Desktop/Autocliker/Autocliker/src/main.cpp",
+  "output": "CMakeFiles/Autoclicker.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Autoclicker.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Autoclicker.dir\\ui\\MainWindow.cpp.obj -c C:\\Users\\pbent\\Desktop\\Autocliker\\Autocliker\\ui\\MainWindow.cpp",
+  "file": "C:/Users/pbent/Desktop/Autocliker/Autocliker/ui/MainWindow.cpp",
+  "output": "CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj"
+},
+{
+  "directory": "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Autoclicker.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Autoclicker.dir\\src\\controller\\Controller.cpp.obj -c C:\\Users\\pbent\\Desktop\\Autocliker\\Autocliker\\src\\controller\\Controller.cpp",
+  "file": "C:/Users/pbent/Desktop/Autocliker/Autocliker/src/controller/Controller.cpp",
+  "output": "CMakeFiles/Autoclicker.dir/src/controller/Controller.cpp.obj"
+},
+{
+  "directory": "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Autoclicker.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Autoclicker.dir\\src\\application\\use_cases\\StartClickingUseCase.cpp.obj -c C:\\Users\\pbent\\Desktop\\Autocliker\\Autocliker\\src\\application\\use_cases\\StartClickingUseCase.cpp",
+  "file": "C:/Users/pbent/Desktop/Autocliker/Autocliker/src/application/use_cases/StartClickingUseCase.cpp",
+  "output": "CMakeFiles/Autoclicker.dir/src/application/use_cases/StartClickingUseCase.cpp.obj"
+},
+{
+  "directory": "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Autoclicker.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Autoclicker.dir\\src\\application\\use_cases\\StopClickingUseCase.cpp.obj -c C:\\Users\\pbent\\Desktop\\Autocliker\\Autocliker\\src\\application\\use_cases\\StopClickingUseCase.cpp",
+  "file": "C:/Users/pbent/Desktop/Autocliker/Autocliker/src/application/use_cases/StopClickingUseCase.cpp",
+  "output": "CMakeFiles/Autoclicker.dir/src/application/use_cases/StopClickingUseCase.cpp.obj"
+},
+{
+  "directory": "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Autoclicker.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Autoclicker.dir\\src\\core\\engine\\Engine.cpp.obj -c C:\\Users\\pbent\\Desktop\\Autocliker\\Autocliker\\src\\core\\engine\\Engine.cpp",
+  "file": "C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/engine/Engine.cpp",
+  "output": "CMakeFiles/Autoclicker.dir/src/core/engine/Engine.cpp.obj"
+},
+{
+  "directory": "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Autoclicker.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Autoclicker.dir\\src\\core\\actions\\ClickAction.cpp.obj -c C:\\Users\\pbent\\Desktop\\Autocliker\\Autocliker\\src\\core\\actions\\ClickAction.cpp",
+  "file": "C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/actions/ClickAction.cpp",
+  "output": "CMakeFiles/Autoclicker.dir/src/core/actions/ClickAction.cpp.obj"
+},
+{
+  "directory": "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Autoclicker.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Autoclicker.dir\\src\\core\\actions\\MacroRecorder.cpp.obj -c C:\\Users\\pbent\\Desktop\\Autocliker\\Autocliker\\src\\core\\actions\\MacroRecorder.cpp",
+  "file": "C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/actions/MacroRecorder.cpp",
+  "output": "CMakeFiles/Autoclicker.dir/src/core/actions/MacroRecorder.cpp.obj"
+},
+{
+  "directory": "C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Autoclicker.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Autoclicker.dir\\src\\core\\actions\\PlayMacroAction.cpp.obj -c C:\\Users\\pbent\\Desktop\\Autocliker\\Autocliker\\src\\core\\actions\\PlayMacroAction.cpp",
+  "file": "C:/Users/pbent/Desktop/Autocliker/Autocliker/src/core/actions/PlayMacroAction.cpp",
+  "output": "CMakeFiles/Autoclicker.dir/src/core/actions/PlayMacroAction.cpp.obj"
+}
+]

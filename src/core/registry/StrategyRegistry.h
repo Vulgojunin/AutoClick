@@ -9,14 +9,20 @@
 
 class StrategyRegistry {
 public:
-    static std::unique_ptr<IStrategy> create(StrategyType type, int interval, int jitter) {
+    // Factory Method: Decide qual estratégia instanciar com base na escolha do usuário
+    static std::unique_ptr<IStrategy> create(StrategyType type, int intervalMs, int jitterMs) {
         switch (type) {
             case StrategyType::Fixed:  
-                return std::make_unique<FixedStrategy>(interval);
+                // Estratégia Fixa: precisa apenas do intervalo base
+                return std::make_unique<FixedStrategy>(intervalMs);
+                
             case StrategyType::Jitter: 
-                return std::make_unique<JitterStrategy>(interval, jitter);
+                // Estratégia Jitter (Aleatória): precisa do intervalo e da variação máxima
+                return std::make_unique<JitterStrategy>(intervalMs, jitterMs);
+                
             case StrategyType::None:
             default:                   
+                // Proteção contra falhas: retorna nulo se o tipo for inválido ou não mapeado
                 return nullptr;
         }
     }
