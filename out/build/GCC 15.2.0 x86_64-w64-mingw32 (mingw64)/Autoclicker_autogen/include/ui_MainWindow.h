@@ -18,6 +18,7 @@
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QRadioButton>
+#include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QSpinBox>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QVBoxLayout>
@@ -29,29 +30,35 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
-    QVBoxLayout *verticalLayout;
+    QVBoxLayout *verticalLayoutMain;
+    QWidget *titleBar;
+    QHBoxLayout *hLayoutTitle;
+    QLabel *labelTitle;
+    QSpacerItem *horizontalSpacer;
+    QPushButton *btnMinimize;
+    QPushButton *btnClose;
     QGroupBox *groupBoxInterval;
-    QHBoxLayout *hLayout;
-    QLabel *lH;
+    QHBoxLayout *hLayoutInterval;
+    QLabel *labelH;
     QSpinBox *spinBoxHours;
-    QLabel *lM;
+    QLabel *labelM;
     QSpinBox *spinBoxMins;
-    QLabel *lS;
+    QLabel *labelS;
     QSpinBox *spinBoxSecs;
-    QLabel *lMs;
+    QLabel *labelMs;
     QSpinBox *spinBoxMs;
     QGroupBox *groupBoxOptions;
-    QVBoxLayout *vLayoutOpt;
+    QVBoxLayout *vLayoutOptions;
     QComboBox *comboBoxButton;
     QComboBox *comboBoxType;
     QGroupBox *groupBoxRepeat;
-    QVBoxLayout *vLayoutRep;
+    QVBoxLayout *vLayoutRepeat;
     QRadioButton *radioInfinite;
-    QHBoxLayout *hLayoutRep;
+    QHBoxLayout *hLayoutRepeatTimes;
     QRadioButton *radioRepeat;
     QSpinBox *spinBoxTimes;
-    QLabel *lT;
-    QHBoxLayout *hLayoutBtns;
+    QLabel *labelTimes;
+    QHBoxLayout *hLayoutButtons;
     QPushButton *pushButtonStop;
     QPushButton *pushButtonStart;
     QStatusBar *statusbar;
@@ -60,123 +67,155 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(420, 380);
+        MainWindow->resize(500, 600);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
-        verticalLayout = new QVBoxLayout(centralwidget);
-        verticalLayout->setObjectName("verticalLayout");
+        verticalLayoutMain = new QVBoxLayout(centralwidget);
+        verticalLayoutMain->setSpacing(10);
+        verticalLayoutMain->setObjectName("verticalLayoutMain");
+        verticalLayoutMain->setContentsMargins(35, 20, 35, 35);
+        titleBar = new QWidget(centralwidget);
+        titleBar->setObjectName("titleBar");
+        titleBar->setMinimumSize(QSize(0, 40));
+        hLayoutTitle = new QHBoxLayout(titleBar);
+        hLayoutTitle->setContentsMargins(0, 0, 0, 0);
+        hLayoutTitle->setObjectName("hLayoutTitle");
+        labelTitle = new QLabel(titleBar);
+        labelTitle->setObjectName("labelTitle");
+        labelTitle->setStyleSheet(QString::fromUtf8("font-weight: bold; color: #00d2ff; margin-left: 10px;"));
+
+        hLayoutTitle->addWidget(labelTitle);
+
+        horizontalSpacer = new QSpacerItem(0, 0, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
+
+        hLayoutTitle->addItem(horizontalSpacer);
+
+        btnMinimize = new QPushButton(titleBar);
+        btnMinimize->setObjectName("btnMinimize");
+
+        hLayoutTitle->addWidget(btnMinimize);
+
+        btnClose = new QPushButton(titleBar);
+        btnClose->setObjectName("btnClose");
+
+        hLayoutTitle->addWidget(btnClose);
+
+
+        verticalLayoutMain->addWidget(titleBar);
+
         groupBoxInterval = new QGroupBox(centralwidget);
         groupBoxInterval->setObjectName("groupBoxInterval");
-        hLayout = new QHBoxLayout(groupBoxInterval);
-        hLayout->setObjectName("hLayout");
-        lH = new QLabel(groupBoxInterval);
-        lH->setObjectName("lH");
+        hLayoutInterval = new QHBoxLayout(groupBoxInterval);
+        hLayoutInterval->setObjectName("hLayoutInterval");
+        labelH = new QLabel(groupBoxInterval);
+        labelH->setObjectName("labelH");
 
-        hLayout->addWidget(lH);
+        hLayoutInterval->addWidget(labelH);
 
         spinBoxHours = new QSpinBox(groupBoxInterval);
         spinBoxHours->setObjectName("spinBoxHours");
 
-        hLayout->addWidget(spinBoxHours);
+        hLayoutInterval->addWidget(spinBoxHours);
 
-        lM = new QLabel(groupBoxInterval);
-        lM->setObjectName("lM");
+        labelM = new QLabel(groupBoxInterval);
+        labelM->setObjectName("labelM");
 
-        hLayout->addWidget(lM);
+        hLayoutInterval->addWidget(labelM);
 
         spinBoxMins = new QSpinBox(groupBoxInterval);
         spinBoxMins->setObjectName("spinBoxMins");
 
-        hLayout->addWidget(spinBoxMins);
+        hLayoutInterval->addWidget(spinBoxMins);
 
-        lS = new QLabel(groupBoxInterval);
-        lS->setObjectName("lS");
+        labelS = new QLabel(groupBoxInterval);
+        labelS->setObjectName("labelS");
 
-        hLayout->addWidget(lS);
+        hLayoutInterval->addWidget(labelS);
 
         spinBoxSecs = new QSpinBox(groupBoxInterval);
         spinBoxSecs->setObjectName("spinBoxSecs");
 
-        hLayout->addWidget(spinBoxSecs);
+        hLayoutInterval->addWidget(spinBoxSecs);
 
-        lMs = new QLabel(groupBoxInterval);
-        lMs->setObjectName("lMs");
+        labelMs = new QLabel(groupBoxInterval);
+        labelMs->setObjectName("labelMs");
 
-        hLayout->addWidget(lMs);
+        hLayoutInterval->addWidget(labelMs);
 
         spinBoxMs = new QSpinBox(groupBoxInterval);
         spinBoxMs->setObjectName("spinBoxMs");
         spinBoxMs->setMaximum(999);
 
-        hLayout->addWidget(spinBoxMs);
+        hLayoutInterval->addWidget(spinBoxMs);
 
 
-        verticalLayout->addWidget(groupBoxInterval);
+        verticalLayoutMain->addWidget(groupBoxInterval);
 
         groupBoxOptions = new QGroupBox(centralwidget);
         groupBoxOptions->setObjectName("groupBoxOptions");
-        vLayoutOpt = new QVBoxLayout(groupBoxOptions);
-        vLayoutOpt->setObjectName("vLayoutOpt");
+        vLayoutOptions = new QVBoxLayout(groupBoxOptions);
+        vLayoutOptions->setObjectName("vLayoutOptions");
         comboBoxButton = new QComboBox(groupBoxOptions);
         comboBoxButton->setObjectName("comboBoxButton");
 
-        vLayoutOpt->addWidget(comboBoxButton);
+        vLayoutOptions->addWidget(comboBoxButton);
 
         comboBoxType = new QComboBox(groupBoxOptions);
         comboBoxType->setObjectName("comboBoxType");
 
-        vLayoutOpt->addWidget(comboBoxType);
+        vLayoutOptions->addWidget(comboBoxType);
 
 
-        verticalLayout->addWidget(groupBoxOptions);
+        verticalLayoutMain->addWidget(groupBoxOptions);
 
         groupBoxRepeat = new QGroupBox(centralwidget);
         groupBoxRepeat->setObjectName("groupBoxRepeat");
-        vLayoutRep = new QVBoxLayout(groupBoxRepeat);
-        vLayoutRep->setObjectName("vLayoutRep");
+        vLayoutRepeat = new QVBoxLayout(groupBoxRepeat);
+        vLayoutRepeat->setObjectName("vLayoutRepeat");
         radioInfinite = new QRadioButton(groupBoxRepeat);
         radioInfinite->setObjectName("radioInfinite");
 
-        vLayoutRep->addWidget(radioInfinite);
+        vLayoutRepeat->addWidget(radioInfinite);
 
-        hLayoutRep = new QHBoxLayout();
-        hLayoutRep->setObjectName("hLayoutRep");
+        hLayoutRepeatTimes = new QHBoxLayout();
+        hLayoutRepeatTimes->setObjectName("hLayoutRepeatTimes");
         radioRepeat = new QRadioButton(groupBoxRepeat);
         radioRepeat->setObjectName("radioRepeat");
 
-        hLayoutRep->addWidget(radioRepeat);
+        hLayoutRepeatTimes->addWidget(radioRepeat);
 
         spinBoxTimes = new QSpinBox(groupBoxRepeat);
         spinBoxTimes->setObjectName("spinBoxTimes");
         spinBoxTimes->setMaximum(999999);
 
-        hLayoutRep->addWidget(spinBoxTimes);
+        hLayoutRepeatTimes->addWidget(spinBoxTimes);
 
-        lT = new QLabel(groupBoxRepeat);
-        lT->setObjectName("lT");
+        labelTimes = new QLabel(groupBoxRepeat);
+        labelTimes->setObjectName("labelTimes");
 
-        hLayoutRep->addWidget(lT);
-
-
-        vLayoutRep->addLayout(hLayoutRep);
+        hLayoutRepeatTimes->addWidget(labelTimes);
 
 
-        verticalLayout->addWidget(groupBoxRepeat);
+        vLayoutRepeat->addLayout(hLayoutRepeatTimes);
 
-        hLayoutBtns = new QHBoxLayout();
-        hLayoutBtns->setObjectName("hLayoutBtns");
+
+        verticalLayoutMain->addWidget(groupBoxRepeat);
+
+        hLayoutButtons = new QHBoxLayout();
+        hLayoutButtons->setSpacing(20);
+        hLayoutButtons->setObjectName("hLayoutButtons");
         pushButtonStop = new QPushButton(centralwidget);
         pushButtonStop->setObjectName("pushButtonStop");
 
-        hLayoutBtns->addWidget(pushButtonStop);
+        hLayoutButtons->addWidget(pushButtonStop);
 
         pushButtonStart = new QPushButton(centralwidget);
         pushButtonStart->setObjectName("pushButtonStart");
 
-        hLayoutBtns->addWidget(pushButtonStart);
+        hLayoutButtons->addWidget(pushButtonStart);
 
 
-        verticalLayout->addLayout(hLayoutBtns);
+        verticalLayoutMain->addLayout(hLayoutButtons);
 
         MainWindow->setCentralWidget(centralwidget);
         statusbar = new QStatusBar(MainWindow);
@@ -190,19 +229,22 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "A AutoClick", nullptr));
+        labelTitle->setText(QCoreApplication::translate("MainWindow", "\342\232\241 A AutoClick", nullptr));
+        btnMinimize->setText(QCoreApplication::translate("MainWindow", "\342\200\223", nullptr));
+        btnClose->setText(QCoreApplication::translate("MainWindow", "\342\234\225", nullptr));
         groupBoxInterval->setTitle(QCoreApplication::translate("MainWindow", "Click Interval", nullptr));
-        lH->setText(QCoreApplication::translate("MainWindow", "H:", nullptr));
-        lM->setText(QCoreApplication::translate("MainWindow", "M:", nullptr));
-        lS->setText(QCoreApplication::translate("MainWindow", "S:", nullptr));
-        lMs->setText(QCoreApplication::translate("MainWindow", "Ms:", nullptr));
+        labelH->setText(QCoreApplication::translate("MainWindow", "H:", nullptr));
+        labelM->setText(QCoreApplication::translate("MainWindow", "M:", nullptr));
+        labelS->setText(QCoreApplication::translate("MainWindow", "S:", nullptr));
+        labelMs->setText(QCoreApplication::translate("MainWindow", "Ms:", nullptr));
         groupBoxOptions->setTitle(QCoreApplication::translate("MainWindow", "Click Options", nullptr));
         groupBoxRepeat->setTitle(QCoreApplication::translate("MainWindow", "Click Repeat", nullptr));
         radioInfinite->setText(QCoreApplication::translate("MainWindow", "Repeat until stopped", nullptr));
         radioRepeat->setText(QCoreApplication::translate("MainWindow", "Repeat", nullptr));
-        lT->setText(QCoreApplication::translate("MainWindow", "times", nullptr));
+        labelTimes->setText(QCoreApplication::translate("MainWindow", "times", nullptr));
         pushButtonStop->setText(QCoreApplication::translate("MainWindow", "Stop", nullptr));
         pushButtonStart->setText(QCoreApplication::translate("MainWindow", "Start", nullptr));
-        (void)MainWindow;
     } // retranslateUi
 
 };

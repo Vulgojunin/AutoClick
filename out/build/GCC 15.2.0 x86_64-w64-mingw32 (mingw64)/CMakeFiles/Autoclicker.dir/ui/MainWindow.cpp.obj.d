@@ -419,6 +419,9 @@ CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj: \
  C:/Qt/6.10.2/mingw_64/include/QtGui/qinputmethod.h \
  C:/Qt/6.10.2/mingw_64/include/QtCore/qlocale.h \
  C:/Qt/6.10.2/mingw_64/include/QtGui/qguiapplication_platform.h \
+ C:/Qt/6.10.2/mingw_64/include/QtGui/QMouseEvent \
+ C:/Qt/6.10.2/mingw_64/include/QtCore/QPoint \
+ C:/Qt/6.10.2/mingw_64/include/QtCore/qpoint.h \
  C:/Users/pbent/Desktop/Autocliker/Autocliker/src/controller/Controller.h \
  C:/Users/pbent/Desktop/Autocliker/Autocliker/src/application/use_cases/AppCommand.h \
  C:/Users/pbent/Desktop/Autocliker/Autocliker/src/application/use_cases/AppTypes.h \
@@ -470,6 +473,8 @@ CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj: \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/qabstractbutton.h \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/QRadioButton \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/qradiobutton.h \
+ C:/Qt/6.10.2/mingw_64/include/QtWidgets/QSpacerItem \
+ C:/Qt/6.10.2/mingw_64/include/QtWidgets/qlayoutitem.h \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/QSpinBox \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/qspinbox.h \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/QStatusBar \
@@ -511,12 +516,24 @@ CMakeFiles/Autoclicker.dir/ui/MainWindow.cpp.obj: \
  C:/msys64/mingw64/include/c++/15.2.0/codecvt \
  C:/msys64/mingw64/include/c++/15.2.0/bits/fs_dir.h \
  C:/msys64/mingw64/include/c++/15.2.0/bits/fs_ops.h \
+ C:/Qt/6.10.2/mingw_64/include/QtCore/QCoreApplication \
+ C:/Qt/6.10.2/mingw_64/include/QtCore/qcoreapplication.h \
+ C:/Qt/6.10.2/mingw_64/include/QtCore/QDir \
+ C:/Qt/6.10.2/mingw_64/include/QtCore/qdir.h \
+ C:/Qt/6.10.2/mingw_64/include/QtCore/qdirlisting.h \
+ C:/Qt/6.10.2/mingw_64/include/QtCore/qdatetime.h \
+ C:/Qt/6.10.2/mingw_64/include/QtCore/qcalendar.h \
+ C:/Qt/6.10.2/mingw_64/include/QtCore/qfile.h \
+ C:/Qt/6.10.2/mingw_64/include/QtCore/qfileinfo.h \
+ C:/Qt/6.10.2/mingw_64/include/QtCore/qtimezone.h \
  C:/Qt/6.10.2/mingw_64/include/QtCore/QMetaObject \
  C:/Qt/6.10.2/mingw_64/include/QtCore/qobjectdefs.h \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/QMessageBox \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/qmessagebox.h \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.10.2/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
+ C:/Qt/6.10.2/mingw_64/include/QtCore/QDebug \
+ C:/Qt/6.10.2/mingw_64/include/QtCore/qdebug.h \
  C:/msys64/mingw64/include/windows.h \
  C:/msys64/mingw64/include/sdkddkver.h C:/msys64/mingw64/include/excpt.h \
  C:/msys64/mingw64/include/windef.h \

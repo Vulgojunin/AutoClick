@@ -420,6 +420,9 @@ CMakeFiles/Autoclicker.dir/Autoclicker_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.10.2/mingw_64/include/QtGui/qinputmethod.h \
  C:/Qt/6.10.2/mingw_64/include/QtCore/qlocale.h \
  C:/Qt/6.10.2/mingw_64/include/QtGui/qguiapplication_platform.h \
+ C:/Qt/6.10.2/mingw_64/include/QtGui/QMouseEvent \
+ C:/Qt/6.10.2/mingw_64/include/QtCore/QPoint \
+ C:/Qt/6.10.2/mingw_64/include/QtCore/qpoint.h \
  C:/Users/pbent/Desktop/Autocliker/Autocliker/src/controller/Controller.h \
  C:/Users/pbent/Desktop/Autocliker/Autocliker/src/application/use_cases/AppCommand.h \
  C:/Users/pbent/Desktop/Autocliker/Autocliker/src/application/use_cases/AppTypes.h \

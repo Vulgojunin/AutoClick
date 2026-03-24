@@ -2,6 +2,7 @@ C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC\ 15.2.0\ x86_64-w64-m
   C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC\ 15.2.0\ x86_64-w64-mingw32\ (mingw64)/Autoclicker_autogen/moc_predefs.h \
   C:/Qt/6.10.2/mingw_64/include/QtCore/QList \
   C:/Qt/6.10.2/mingw_64/include/QtCore/QObject \
+  C:/Qt/6.10.2/mingw_64/include/QtCore/QPoint \
   C:/Qt/6.10.2/mingw_64/include/QtCore/QRect \
   C:/Qt/6.10.2/mingw_64/include/QtCore/QSize \
   C:/Qt/6.10.2/mingw_64/include/QtCore/QSizeF \
@@ -144,6 +145,7 @@ C:/Users/pbent/Desktop/Autocliker/Autocliker/out/build/GCC\ 15.2.0\ x86_64-w64-m
   C:/Qt/6.10.2/mingw_64/include/QtCore/qxptype_traits.h \
   C:/Qt/6.10.2/mingw_64/include/QtCore/qyieldcpu.h \
   C:/Qt/6.10.2/mingw_64/include/QtGui/QKeyEvent \
+  C:/Qt/6.10.2/mingw_64/include/QtGui/QMouseEvent \
   C:/Qt/6.10.2/mingw_64/include/QtGui/QTransform \
   C:/Qt/6.10.2/mingw_64/include/QtGui/qaction.h \
   C:/Qt/6.10.2/mingw_64/include/QtGui/qbitmap.h \

@@ -3,8 +3,12 @@
 #include "application/use_cases/AppCommand.h"
 #include "application/use_cases/AppTypes.h"
 #include <QFile>
+#include <QCoreApplication>
+#include <QDir>
 #include <QMetaObject>
 #include <QMessageBox>
+#include <QMouseEvent>
+#include <QDebug>
 
 #ifdef _WIN32
 #include <windows.h>
@@ -19,27 +23,34 @@ MainWindow::MainWindow(Controller* controller, QWidget *parent)
 {
     ui->setupUi(this);
     
-    // Trava a janela no tamanho ideal
-    setFixedSize(420, 380);
+    // Configurações da Janela (Sem bordas e Transparente)
+    this->setWindowFlags(Qt::FramelessWindowHint);
+    this->setAttribute(Qt::WA_TranslucentBackground);
+    this->resize(800, 650);
     
-    // Carrega o design externo
     loadStyleSheet();
 
-    // Configura as opções do Mouse
+    // 1. Populando os menus
     ui->comboBoxButton->clear();
-    ui->comboBoxButton->addItem("Esquerdo", "leftclick");
-    ui->comboBoxButton->addItem("Direito", "rightclick");
+    ui->comboBoxButton->addItem("Botão Esquerdo", "leftclick");
+    ui->comboBoxButton->addItem("Botão Direito", "rightclick");
 
-    // Estado inicial
+    ui->comboBoxType->clear();
+    ui->comboBoxType->addItem("Clique Fixo (Normal)", "fixed");
+    ui->comboBoxType->addItem("Clique Jitter (Aleatório)", "jitter");
+
     ui->radioInfinite->setChecked(true);
     ui->pushButtonStop->setEnabled(false);
-    statusBar()->showMessage("Bento PRO: F6 Inicia | F7 Para | F5 Designer");
 
     m_controller->subscribe(this);
 
-    // Conecta os botões
+    // 2. Conexões dos Botões de Controle
     connect(ui->pushButtonStart, &QPushButton::clicked, this, &MainWindow::onStartClicked);
     connect(ui->pushButtonStop, &QPushButton::clicked, this, &MainWindow::onStopClicked);
+
+    // 3. Conexões da "Barra de Título" (Fechar e Minimizar)
+    connect(ui->btnClose, &QPushButton::clicked, this, &MainWindow::close);
+    connect(ui->btnMinimize, &QPushButton::clicked, this, &MainWindow::showMinimized);
 
     updateGlobalHotkeys();
 }
@@ -53,20 +64,38 @@ MainWindow::~MainWindow() {
     delete ui;
 }
 
-// Carrega o design sem precisar compilar
 void MainWindow::loadStyleSheet() {
-    QFile file("style.qss");
+    QString cssPath = QCoreApplication::applicationDirPath() + "/style.qss";
+    QFile file(cssPath);
+    
     if (file.open(QFile::ReadOnly)) {
-        this->setStyleSheet(QLatin1String(file.readAll()));
+        QString styleData = QLatin1String(file.readAll());
+        this->setStyleSheet(styleData);
         file.close();
+        qDebug() << "Visual Bento PRO carregado!";
+    } else {
+        qDebug() << "ERRO: style.qss nao encontrado em:" << cssPath;
+        this->setStyleSheet("QMainWindow { background-color: #1a1d22; border: 2px solid #00d2ff; }");
     }
 }
 
-// Atualiza o visual ao apertar F5
+// Permitir ARRASTAR a janela clicando na barra de título ou fundo
+void MainWindow::mousePressEvent(QMouseEvent *event) {
+    m_dragPosition = event->globalPosition().toPoint() - frameGeometry().topLeft();
+    event->accept();
+}
+
+void MainWindow::mouseMoveEvent(QMouseEvent *event) {
+    if (event->buttons() & Qt::LeftButton) {
+        move(event->globalPosition().toPoint() - m_dragPosition);
+        event->accept();
+    }
+}
+
+// F5 para atualizar o visual em tempo real
 void MainWindow::keyPressEvent(QKeyEvent *event) {
     if (event->key() == Qt::Key_F5) {
         loadStyleSheet();
-        statusBar()->showMessage("Visual atualizado com sucesso!", 1500);
     }
 }
 
@@ -92,22 +121,23 @@ bool MainWindow::nativeEvent(const QByteArray &eventType, void *message, qintptr
 }
 
 void MainWindow::onStartClicked() {
-    // Soma o tempo de todas as caixinhas
     long long total = (ui->spinBoxHours->value() * 3600000ULL) + 
                       (ui->spinBoxMins->value()  * 60000ULL) + 
                       (ui->spinBoxSecs->value()  * 1000ULL) + 
                        ui->spinBoxMs->value();
 
-    if (total <= 0) {
-        QMessageBox::warning(this, "Aviso", "Intervalo inválido!");
+    if (total <= 0 && ui->spinBoxMs->value() == 0) {
+        QMessageBox::warning(this, "Aviso", "Defina um intervalo!");
         return;
     }
 
     CommandData data;
-    data.intervalMs = (int)total;
+    data.intervalMs = (total > 0) ? (int)total : 100;
     data.actionName = ui->comboBoxButton->currentData().toString().toStdString();
+    data.strategyName = ui->comboBoxType->currentData().toString().toStdString();
     data.isInfinite = ui->radioInfinite->isChecked();
     data.repeatTimes = ui->spinBoxTimes->value();
+    data.jitterMs = 15; 
 
     m_controller->handleCommand(AppCommand::StartClicking, data);
 }
@@ -131,6 +161,5 @@ void MainWindow::onExecutionStopped() {
     });
 }
 
-// Slots auxiliares
 void MainWindow::onStartKeyChanged(int i) { Q_UNUSED(i); updateGlobalHotkeys(); }
 void MainWindow::onStopKeyChanged(int i) { Q_UNUSED(i); updateGlobalHotkeys(); }
